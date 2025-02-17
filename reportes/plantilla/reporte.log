@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.14)  14 FEB 2025 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.14)  16 FEB 2025 21:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -672,7 +672,7 @@ Package epstopdf Info: Source file: <portada/tecnm.eps>
 /tecnm-eps-converted-to.pdf portada/tecnm.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<portada/tecnm-eps-converted-to.pdf, id=35, 83.31125pt x 37.13875pt>
+<portada/tecnm-eps-converted-to.pdf, id=43, 83.31125pt x 37.13875pt>
 File: portada/tecnm-eps-converted-to.pdf Graphic file (type pdf)
 <use portada/tecnm-eps-converted-to.pdf>
 Package pdftex.def Info: portada/tecnm-eps-converted-to.pdf  used on input line
@@ -688,23 +688,18 @@ Package epstopdf Info: Source file: <portada/SEP.eps>
 /SEP-eps-converted-to.pdf portada/SEP.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
-<portada/SEP-eps-converted-to.pdf, id=36, 561.09625pt x 173.64874pt>
+<portada/SEP-eps-converted-to.pdf, id=44, 561.09625pt x 173.64874pt>
 File: portada/SEP-eps-converted-to.pdf Graphic file (type pdf)
 <use portada/SEP-eps-converted-to.pdf>
 Package pdftex.def Info: portada/SEP-eps-converted-to.pdf  used on input line 7
 .
 (pdftex.def)             Requested size: 137.90215pt x 42.67912pt.
-<portada/ith.jpg, id=37, 173.14688pt x 176.15813pt>
+<portada/ith.jpg, id=45, 173.14688pt x 176.15813pt>
 File: portada/ith.jpg Graphic file (type jpg)
 <use portada/ith.jpg>
 Package pdftex.def Info: portada/ith.jpg  used on input line 8.
 (pdftex.def)             Requested size: 55.93124pt x 56.9055pt.
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 36.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24> on input line 36.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <16.79993> on input line 36.
-<portada/perfil1.jpg, id=38, 1300.86pt x 1589.94pt>
+<portada/perfil1.jpg, id=46, 1300.86pt x 1589.94pt>
 File: portada/perfil1.jpg Graphic file (type jpg)
 <use portada/perfil1.jpg>
 Package pdftex.def Info: portada/perfil1.jpg  used on input line 55.
@@ -715,17 +710,17 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
 (C:\Users\alpen\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<portada/perfil2.jpg, id=39, 1300.86pt x 1589.94pt>
+<portada/perfil2.jpg, id=47, 1300.86pt x 1589.94pt>
 File: portada/perfil2.jpg Graphic file (type jpg)
 <use portada/perfil2.jpg>
 Package pdftex.def Info: portada/perfil2.jpg  used on input line 59.
 (pdftex.def)             Requested size: 69.83054pt x 85.35826pt.
-<portada/perfil3.jpg, id=40, 1300.86pt x 1589.94pt>
+<portada/perfil3.jpg, id=48, 1300.86pt x 1589.94pt>
 File: portada/perfil3.jpg Graphic file (type jpg)
 <use portada/perfil3.jpg>
 Package pdftex.def Info: portada/perfil3.jpg  used on input line 63.
 (pdftex.def)             Requested size: 69.83054pt x 85.35826pt.
-<portada/perfil4.jpg, id=41, 1300.86pt x 1589.94pt>
+<portada/perfil4.jpg, id=49, 1300.86pt x 1589.94pt>
 File: portada/perfil4.jpg Graphic file (type jpg)
 <use portada/perfil4.jpg>
 Package pdftex.def Info: portada/perfil4.jpg  used on input line 67.
@@ -737,7 +732,7 @@ pen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./portada/tecn
 m-eps-converted-to.pdf> <./portada/SEP-eps-converted-to.pdf> <./portada/ith.jpg
 > <./portada/perfil1.jpg> <./portada/perfil2.jpg> <./portada/perfil3.jpg> <./po
 rtada/perfil4.jpg>]) (secciones/introduccion.tex) (secciones/imagenes.tex
-<img/insertarImagen.png, id=57, 559.33969pt x 648.17157pt>
+<img/insertarImagen.png, id=65, 559.33969pt x 648.17157pt>
 File: img/insertarImagen.png Graphic file (type png)
 <use img/insertarImagen.png>
 Package pdftex.def Info: img/insertarImagen.png  used on input line 7.
@@ -745,28 +740,54 @@ Package pdftex.def Info: img/insertarImagen.png  used on input line 7.
 
 
 [1 <./img/insertarImagen.png>]
-<img/perro.jpg, id=68, 276.03125pt x 183.68625pt>
+<img/perro.jpg, id=76, 276.03125pt x 183.68625pt>
 File: img/perro.jpg Graphic file (type jpg)
 <use img/perro.jpg>
 Package pdftex.def Info: img/perro.jpg  used on input line 30.
 (pdftex.def)             Requested size: 206.39685pt x 137.35512pt.
-<img/gato.jpg, id=69, 266.9975pt x 190.7125pt>
+<img/gato.jpg, id=77, 266.9975pt x 190.7125pt>
 File: img/gato.jpg Graphic file (type jpg)
 <use img/gato.jpg>
 Package pdftex.def Info: img/gato.jpg  used on input line 35.
 (pdftex.def)             Requested size: 206.39685pt x 147.43108pt.
 ) (secciones/tablas.tex
+
+[2 <./img/perro.jpg> <./img/gato.jpg>]
+
+[3]
 \c@actividad=\count321
- [2 <./img/perro.jpg> <./img/gato.jpg>]) (secciones/ecuaciones.tex) (secciones/
-conclusion.tex
 
-[3{C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.en
-c}{C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
-:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C
-:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}])
-(reporte.bbl)
+Overfull \hbox (181.79129pt too wide) in alignment at lines 105--110
+ [] [] [] 
+ []
 
-[4] (reporte.aux
+
+Overfull \hbox (181.79129pt too wide) in alignment at lines 110--115
+ [] [] [] 
+ []
+
+
+Overfull \hbox (181.79129pt too wide) in alignment at lines 115--118
+ [] [] [] 
+ []
+
+
+Overfull \hbox (181.79129pt too wide) in alignment at lines 118--120
+ [] [] [] 
+ []
+
+
+Overfull \hbox (181.79129pt too wide) in alignment at lines 120--132
+ [] [] [] 
+ []
+
+) (secciones/ecuaciones.tex
+
+[4]) (secciones/conclusion.tex
+
+[5]) (reporte.bbl)
+
+[6] (reporte.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -774,41 +795,30 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `reporte.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `reporte.out':
-(rerunfilecheck)             Before: 23D6F34A572AD1E4E8F4345F0B401524;771
-(rerunfilecheck)             After:  C85F0649241C0431E837E69C2DEFE492;763.
+Package rerunfilecheck Info: File `reporte.out' has not changed.
+(rerunfilecheck)             Checksum: 0DE6B25B542355BBE19D890919761097;1199.
  ) 
 Here is how much of TeX's memory you used:
- 14938 strings out of 473530
- 244975 string characters out of 5714794
- 657224 words of memory out of 5000000
- 37903 multiletter control sequences out of 15000+600000
- 742676 words of font info for 140 fonts, out of 8000000 for 9000
+ 14934 strings out of 473530
+ 244294 string characters out of 5714794
+ 656258 words of memory out of 5000000
+ 37887 multiletter control sequences out of 15000+600000
+ 731614 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,79p,485b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,79p,451b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
-fb><C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.p
-fb><C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.p
 fb><C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pf
 b><C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><
 C:/Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:
 /Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:
 /Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/
-Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/
-Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/U
-sers/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on reporte.pdf (5 pages, 435385 bytes).
+Users/alpen/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on reporte.pdf (7 pages, 429599 bytes).
 PDF statistics:
  172 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
