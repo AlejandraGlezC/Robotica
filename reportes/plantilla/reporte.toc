@@ -1,7 +1,15 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {I}Introducción}{1}{section.1}%
-\contentsline {section}{\numberline {II}Imágenes}{1}{section.2}%
-\contentsline {section}{\numberline {III}Tablas}{1}{section.3}%
-\contentsline {section}{\numberline {IV}Ecuaciones}{3}{section.4}%
-\contentsline {section}{\numberline {V}Conclusión}{3}{section.5}%
-\contentsline {section}{Referencias}{3}{section*.4}%
+\contentsline {section}{\numberline {I}Sensores}{1}{section.1}%
+\contentsline {section}{\numberline {II}Sensores internos}{1}{section.2}%
+\contentsline {subsection}{\numberline {\mbox {II-A}}Sensores de posición}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {\mbox {II-B}}Sensores de velocidad}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {\mbox {II-C}}Sensores de aceleración}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {\mbox {II-D}}Sensores de fuerza}{4}{subsection.2.4}%
+\contentsline {section}{\numberline {III}Sensores externos}{5}{section.3}%
+\contentsline {subsection}{\numberline {\mbox {III-A}}Sensores de contacto}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {\mbox {III-B}}Sensores sin contacto}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {IV}Otros sensores}{8}{section.4}%
+\contentsline {section}{\numberline {V}Conclusión}{9}{section.5}%
+\contentsline {subsection}{\numberline {\mbox {V-A}}Persona 1}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {\mbox {V-B}}Persona 2}{9}{subsection.5.2}%
+\contentsline {section}{Referencias}{9}{section*.28}%

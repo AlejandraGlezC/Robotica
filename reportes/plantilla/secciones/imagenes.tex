@@ -1,42 +1,25 @@
 \section{Sensores internos}
 Los sensores internos se dividen en sensores de posición, de velocidad, de aceleración y de fuerza.
 
-\subsection{Sensores de posición}
-\subsection*{Encoder incremental}
+\subsection{Sensores de posición} Los sensores de posición miden la posición de cada articulación, es decir, el ángulo de articulación de un robot. A partir de dichos ángulos puede encontrarse la configuración del ejecutor final, y ubicar su posición y orientación por medio de la cinemática directa. A continuación se explican los diferentes sensores de posición.
+
+\subsection*{Encoder incremental} El encoder es un dispositivo óptico digital que convierte el movimiento en una secuencia de pulsos digitales. Mediante el conteo de un solo bit o la decodificación de un conjunto de bits, los pulsos pueden convertirse en medidas relativas o absolutas. De este modo, los encóders son de tipo incremental o absoluto. Además, cada tipo puede ser lineal y rotatorio a su vez.
+
 \begin{itemize}
-	\item \textbf{¿Qué hacen?} Generan un número específico de pulsos por pulgada o milímetro de movimiento lineal.
-	\item \textbf{Principio de funcionamiento:} Tiene 2 salidas básicamente nombradas como A y B que dan las dos ondas, en teoría cuadradas, desfasadas 90 grados cuando hay movimiento.
-	\item \textbf{Ventajas:} 
-	\begin{itemize}
-		\item \text{Son inherentemente digitales y por lo tanto, se puede   interconectar fácilmente con dispositivos modernos} 
-		\item \text{Son de bajo costo y fácil de usar} 
-		\item \text{Le dan una buena resolución para el costo} 
-		\item \text{Su salida digital diferencial hace más inmune al ruido en comparación con otros dispositivos de retroalimentación que proporcionan señales analógicas} 
-	\end{itemize}
-	\item \textbf{Desventajas:}
-		\begin{itemize}
-		\item \text{El encoder de cuadratura incremental (sin señales de conmutación) proporciona re-alimentación de velocidad y posición, pero no proporciona la señal de conmutación} 
-		\item \text{Si la alimentación de la unidad se pierde entonces la posición se pierde} 
-		\item \text{Si se compara con una resolución, el rango de temperatura de funcionamiento es menor porque la    electrónica está integrada en el retorno del encoder. El encoder sigue en funcionamiento a temperaturas de hasta 120 ° C (100 ° C máximo para mantener el rendimiento completo)} 
-	\end{itemize}
+	\item \textbf{Encoder lineal incremental:} Utiliza una escala con líneas opacas y espacios iguales en tamaño, ubicados en el rango de micrones. Una fuente de luz atraviesa la escala y es detectada por fotodiodos, generando pulsos cada vez que la luz es bloqueada. Estos pulsos actualizan un contador que mide la distancia recorrida.
+
+	
+	\item \textbf{Encoder rotativo incremental: } Similar al encoder lineal incremental, pero con retículas en un disco. Tiene dos conjuntos de líneas en diferentes círculos para detectar el sentido de rotación y mejorar la precisión. Además, cuenta con un círculo adicional con una sola marca para medir el número de revoluciones completadas.
+
+	
 \end{itemize}
 
 
 
 \subsection*{Encoder absoluto}
 \begin{itemize}
-	\item \textbf{¿Qué hacen?} Genera mensajes digitales lo cual representa la posición actual del encoder, así como su velocidad y dirección de movimiento.
-	\item \textbf{Principio de funcionamiento:} La resolución de un encoder absoluto es definida como el número de bits por mensaje de salida. Esta salida puede ser directamente en código binario o Gray, el cual produce un cambio de un solo bit en cada paso para reducir errores.
-	\item \textbf{Ventajas:} 
-	\begin{itemize}
-		\item \text{Alta resolución se puede lograr con la interpolación dentro de la unidad.} 
-		\item \text{Se utilizan con encoders Comms para proporcionar señales incrementales.} 
-	\end{itemize}
-	\item \textbf{Desventajas:}
-	\begin{itemize}
-		\item \text{Posición absoluta es desconocida; encoders Sin/Cos sólo se utilizan para incrementos de velocidad y posición de realimentación.} 
-		\item \text{Sensible al ruido debido a la naturaleza analógica de la señal de realimentación.} 
-	\end{itemize}
+	\item \textbf{Encoder lineal absoluto: } Similar al incremental, pero proporciona un valor absoluto de la distancia en cualquier momento, evitando pérdida de pulsos a altas velocidades. Su salida es digital y utiliza una escala con secuencias de tiras opacas y transparentes que representan números binarios, permitiendo determinar la posición exacta.
+	\item \textbf{Encoder rotativo absoluto: } Funciona como el encoder lineal absoluto, pero con un disco dividido en tiras circulares con segmentos de arco definidos. Proporciona una salida digital absoluta y se monta directamente en el eje del motor o con engranajes para mayor precisión. Para reducir errores, puede usar un código Gray, que evita confusiones en la salida binaria al cambiar solo un bit a la vez.
 \end{itemize}
 
 
@@ -44,17 +27,10 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 
 \subsection*{Potenciometro}
 \begin{itemize}
-	\item \textbf{¿Qué hacen?} Un sensor de potenciómetro mide la distancia o el desplazamiento de un objeto en un movimiento lineal o rotatorio y lo convierte en una señal eléctrica.
-	\item \textbf{Características:}
-	\begin{itemize}
-		\item \text{Rango: Desde 25 mm hasta 950 mm.} 
-		\item \text{Linealidad: Desde 0.2 hasta 0.075.} 
-		\item \text{Salida: Resistiva 1, 5 o 10 kOhm, según modelos.} 
-		\item \text{Protección: IP63 e IP65, para las series PM y PLS respectivamente.}
-	\end{itemize}
-	
-	\item \textbf{Aplicaciones:} Medida de distancia y posicionado en general de maquinaria para diferentes industrias, como la madera, cerámica, mármol, etc., en las que no existen grandes distancias y se busca una automatización sencilla.
-\end{itemize}
+	\item \textbf{¿Qué hacen?} Es un dispositivo de resistencia variable que expresa desplazamientos lineales o angulares en términos de voltaje.
+	\item \textbf{Principio de funcionamiento:} Consiste en una clavija deslizante que hace contacto con un elemento resistivo; conforme se mueve este punto de contacto, la resistencia entre el contacto deslizante y las conexiones de los extremos del dispositivo cambia en proporción al desplazamiento, x y  para potenciómetros lineales y angulares, respectivamente.
+\end{itemize}	
+
 
 
 
@@ -116,7 +92,12 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 
 
 
-\subsection{Sensores de velocidad}
+\subsection{Sensores de velocidad} Miden la velocidad a partir de cambios de posición en intervalos de tiempo constantes, calculando la razón de cambio respecto al tiempo de los valores de posición, o mediante diferentes principios.
+\subsection*{Sensores de posición}
+\begin{itemize}
+	\item \textbf{¿Qué hacen?} Cualquier sensor de posición puede medir velocidad si se usa dentro de ciertos límites de tiempo. Por ejemplo, un encoder incremental calcula la velocidad dividiendo el número de pulsos entre el tiempo. Sin embargo, este método puede aumentar la carga computacional del controlador.
+	
+\end{itemize}
 \subsection*{Tacómetro}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Esencialmente, los tacómetros miden la velocidad de rotación de un elemento, utilizando el principio de que “el voltaje producido es proporcional al índice del acoplamiento inductivo”, por lo que el conductor (una bobina) se sujeta al elemento rotativo que gira en un campo magnético (estator), para que así, conforme se incremente la velocidad del eje, también aumente el voltaje producido en las terminales de las bobinas, pudiéndola medir directamente.
@@ -124,29 +105,16 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 
 \subsection*{Sensor de efecto Hall}
 \begin{itemize}
-	\item \textbf{¿Qué hacen?} En este sub tipo de sensor interno de velocidad, tenemos una pieza plana de material conductivo llamada chip Hall, la cual se sujeta a una diferencia de potencial en sus dos lados opuestos, para que así el voltaje que se genere a través de las caras perpendiculares sea cero.
-	
-	De esta forma, si un campo magnético se induce en ángulos rectos, el voltaje se generará en las otras 2 caras perpendiculares, por lo que entre más alto sea el valor de campo, más lo será también el nivel de voltaje.
-	
-	Así mismo, es importante señalar que, prácticamente, cualquier sensor interno de posición puede también medir la velocidad, siempre y cuando se utilicen bajo ciertos límites y parámetros de tiempo.
+	\item \textbf{¿Qué hacen?} Otro dispositivo de medición de velocidad es el sensor de efecto Hall, cuyo principio se describe a continuación. Si una pieza plana de material conductivo llamada chip Hall se sujeta a una diferencia de potencial en sus dos lados opuestos, entonces el voltaje que se genera a través de las caras perpendiculares es cero. Pero si un campo magnético se induce en ángulos rectos al conductor, el voltaje se genera en las otras dos caras perpendiculares. Entre más alto sea el valor de campo, más lo será el nivel de voltaje. Si se utiliza un imán anular, el voltaje producido será proporcional a la velocidad de rotación del imán.
 	
 \end{itemize}
 
 
-
-\subsection{Sensores de aceleración}
-\subsection*{}
+\subsection{Sensores de aceleración} De manera parecida a las mediciones de velocidad que se dan a partir de la información de los sensores de posición, pueden encontrarse las aceleraciones como la razón de cambio respecto al tiempo de las velocidades obtenidas por los sensores de velocidad o calculado a partir de las informaciones de posición. Pero ésta no es una manera eficiente para calcular la aceleración, puesto que impondrá una carga de trabajo pesada sobre la computadora, lo que puede reducir la velocidad de operación del sistema. Otra forma de medir la aceleración es calculando la fuerza que resulta de multiplicar masa por aceleración. Las fuerzas se miden, por ejemplo, usando galgas extensométricas. 
+\subsection*{Sensores de fuerza} 
 \begin{itemize}
-	\item \textbf{¿Qué hacen?}
-	\item \textbf{Principio de funcionamiento:}
-	\item \textbf{Tipos:}
-		\begin{itemize}
-		\item \text{} 
-		\item \text{} 
-		\item \text{} 
-		\item \text{}
-		\end{itemize}
-	\item \textbf{Aplicaciones:} 
+	\item \textbf{¿Qué hacen?} Una balanza de resorte es un ejemplo de un sensor de fuerza en donde se aplica una fuerza, por ejemplo, el peso, al platillo de balanza que causa un desplazamiento, es decir, el resorte se estira. El desplazamiento es entonces una medida de la fuerza. Existen otros tipos de sensores de fuerza, por ejemplo, con base en galgas, utilizando el sensor de efecto Hall, etcétera.
+	
 \end{itemize}
 \subsection{Sensores de fuerza}
 \subsection*{Galgas extensiométricas}
@@ -165,9 +133,15 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 		Sensores totalmente encapsulados para proteger el dispositivo de condiciones ambientales.
 		\item \text{Galgas extensiométricas de calidad:} La serie SGT de galgas extensiométricas de calidad de transductor tiene rejillas paralelas dobles, para tensión de dobladura o de eje
 		Aplicaciones de corte o torque
-		Aplicaciones de transductor personalizadas de curva doble
-		
+		Aplicaciones de transductor personalizadas de curva doble.
 	\end{itemize}
+
+\end{itemize}
+	\subsection*{Sensor piezoeléctrico}
+\begin{itemize}
+	\item \textbf{¿Qué hacen?} 
+	Un material piezoeléctrico presenta un fenómeno conocido como efecto piezoeléctrico. Este efecto señala que cuando cristales elásticos asimétricos se deforman mediante una fuerza, se desarrollará un potencial eléctrico dentro de la red cristalina deformada. Este efecto es reversible. Esto quiere decir que si se aplica un voltaje entre las superficies del cristal, éste cambiará sus dimensiones físicas. La magnitud y polaridad de las cargas inducidas son proporcionales a la magnitud y dirección de la fuerza aplicada. Los materiales piezoeléctricos son cuarzo, turmalina, sal de Rochalle y otros. El rango de fuerzas que pueden medirse usando sensores piezoeléctricos es de 1 a 20 kN y con una proporción de $2*10^{5}.$ 
+	Estos sensores pueden usarse para medir un cambio instantáneo en la fuerza (fuerzas dinámicas).
 \end{itemize}
 
 Para usar dos imágenes como en \autoref{fig:mascotas}, se utilizó \texttt{subfloat}.
