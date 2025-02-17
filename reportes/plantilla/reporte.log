@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  16 FEB 2025 23:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  17 FEB 2025 07:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,18 +790,20 @@ Overfull \hbox (1111.81175pt too wide) in paragraph at lines 112--113
 <img/perro.jpg, id=105, 276.03125pt x 183.68625pt>
 File: img/perro.jpg Graphic file (type jpg)
 <use img/perro.jpg>
-Package pdftex.def Info: img/perro.jpg  used on input line 176.
+Package pdftex.def Info: img/perro.jpg  used on input line 180.
 (pdftex.def)             Requested size: 206.39685pt x 137.35512pt.
 <img/gato.jpg, id=106, 266.9975pt x 190.7125pt>
 File: img/gato.jpg Graphic file (type jpg)
 <use img/gato.jpg>
-Package pdftex.def Info: img/gato.jpg  used on input line 181.
+Package pdftex.def Info: img/gato.jpg  used on input line 185.
 (pdftex.def)             Requested size: 206.39685pt x 147.43108pt.
 ) (secciones/tablas.tex
 
 [4 <./img/perro.jpg> <./img/gato.jpg>]
 
 [5]
+
+[6]
 \c@actividad=\count321
 
 Overfull \hbox (181.79129pt too wide) in alignment at lines 105--110
@@ -828,7 +830,7 @@ Overfull \hbox (181.79129pt too wide) in alignment at lines 120--132
  [] [] [] 
  []
 
-[6]) (secciones/ecuaciones.tex
+) (secciones/ecuaciones.tex
 
 [7]) (secciones/conclusion.tex) (reporte.bbl)
 
@@ -844,10 +846,10 @@ Package rerunfilecheck Info: File `reporte.out' has not changed.
 (rerunfilecheck)             Checksum: 3E78EFA125A69E5C8BB45CD2B0262B55;1871.
  ) 
 Here is how much of TeX's memory you used:
- 14978 strings out of 473530
- 241519 string characters out of 5724414
- 657192 words of memory out of 5000000
- 37912 multiletter control sequences out of 15000+600000
+ 14979 strings out of 473530
+ 241538 string characters out of 5724414
+ 655192 words of memory out of 5000000
+ 37913 multiletter control sequences out of 15000+600000
  731989 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,572b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -859,7 +861,7 @@ mitex/fonts/type1/public/lm/lmr8.pfb><D:/aleja/programas/mitex/fonts/type1/publ
 ic/lm/lmr9.pfb><D:/aleja/programas/mitex/fonts/type1/public/lm/lmri12.pfb><D:/a
 leja/programas/mitex/fonts/type1/public/lm/lmri9.pfb><D:/aleja/programas/mitex/
 fonts/type1/public/lm/lmtt12.pfb>
-Output written on reporte.pdf (9 pages, 414790 bytes).
+Output written on reporte.pdf (9 pages, 415859 bytes).
 PDF statistics:
  209 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
