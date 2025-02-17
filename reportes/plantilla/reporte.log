@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  17 FEB 2025 11:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  17 FEB 2025 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,6 +560,13 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (reporte.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
+
+
+LaTeX Warning: Label `fig:perro' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:perro' multiply defined.
+
 )
 \openout1 = `reporte.aux'.
 
@@ -734,59 +741,66 @@ LaTeX Info: Redefining \% on input line 1.
  (secciones/introduccion.tex) (secciones/imagenes.tex
 
 [1]
+<img/perro.jpg, id=103, 276.03125pt x 183.68625pt>
+File: img/perro.jpg Graphic file (type jpg)
+<use img/perro.jpg>
+Package pdftex.def Info: img/perro.jpg  used on input line 30.
+(pdftex.def)             Requested size: 206.39685pt x 137.35512pt.
+
+
+[2 <./img/perro.jpg>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
-1.
+7.
  (D:\aleja\programas\mitex\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-
-[2{D:/aleja/programas/mitex/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (81.9989pt too wide) in paragraph at lines 60--61
+Overfull \hbox (81.9989pt too wide) in paragraph at lines 66--67
 [][] 
  []
 
 
-Overfull \hbox (465.01495pt too wide) in paragraph at lines 83--84
+Overfull \hbox (465.01495pt too wide) in paragraph at lines 89--90
 [][] 
  []
 
 
-Overfull \hbox (512.71964pt too wide) in paragraph at lines 85--86
+Overfull \hbox (512.71964pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
 
-Overfull \hbox (284.14987pt too wide) in paragraph at lines 86--87
+Overfull \hbox (284.14987pt too wide) in paragraph at lines 92--93
 [][] 
  []
 
 
-Overfull \hbox (1111.81175pt too wide) in paragraph at lines 88--89
+Overfull \hbox (1111.81175pt too wide) in paragraph at lines 94--95
 [][] 
  []
 
 
 
-[3]
+[3{D:/aleja/programas/mitex/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 [4]
-<img/perro.jpg, id=126, 276.03125pt x 183.68625pt>
 File: img/perro.jpg Graphic file (type jpg)
 <use img/perro.jpg>
-Package pdftex.def Info: img/perro.jpg  used on input line 154.
+Package pdftex.def Info: img/perro.jpg  used on input line 160.
 (pdftex.def)             Requested size: 206.39685pt x 137.35512pt.
-<img/gato.jpg, id=127, 266.9975pt x 190.7125pt>
+<img/gato.jpg, id=129, 266.9975pt x 190.7125pt>
 File: img/gato.jpg Graphic file (type jpg)
 <use img/gato.jpg>
-Package pdftex.def Info: img/gato.jpg  used on input line 159.
+Package pdftex.def Info: img/gato.jpg  used on input line 165.
 (pdftex.def)             Requested size: 206.39685pt x 147.43108pt.
 ) (secciones/tablas.tex
 
 [5{D:/aleja/programas/mitex/fonts/enc/dvips/lm/lm-rm.enc}{D:/aleja/programas/mi
 tex/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/aleja/programas/mitex/fonts/enc/dvips/
-lm/lm-mathit.enc} <./img/perro.jpg> <./img/gato.jpg>]
+lm/lm-mathit.enc} <./img/gato.jpg>]
 
 [6]
+
+[7]
 \c@actividad=\count321
 
 Overfull \hbox (181.79129pt too wide) in alignment at lines 105--110
@@ -813,7 +827,7 @@ Overfull \hbox (181.79129pt too wide) in alignment at lines 120--132
  [] [] [] 
  []
 
-[7]) (secciones/ecuaciones.tex
+) (secciones/ecuaciones.tex
 
 [8]) (secciones/conclusion.tex) (reporte.bbl)
 
@@ -825,17 +839,21 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `reporte.out' has not changed.
-(rerunfilecheck)             Checksum: 94DD9C9BBD14C0937152DD7AE333126F;1871.
+(rerunfilecheck)             Checksum: 6918317F2056EB5862021449973EF600;1871.
  ) 
 Here is how much of TeX's memory you used:
- 14997 strings out of 473530
- 241816 string characters out of 5724414
- 657194 words of memory out of 5000000
+ 14998 strings out of 473530
+ 241833 string characters out of 5724414
+ 655233 words of memory out of 5000000
  37921 multiletter control sequences out of 15000+600000
  731989 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,79p,819b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,79p,819b,550s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/aleja/programas/mitex/fonts/type1/public/lm/lmbx10.pfb><D:/aleja/programa
 s/mitex/fonts/type1/public/lm/lmbx12.pfb><D:/aleja/programas/mitex/fonts/type1/
 public/lm/lmcsc10.pfb><D:/aleja/programas/mitex/fonts/type1/public/lm/lmmi12.pf
@@ -845,9 +863,9 @@ blic/lm/lmr8.pfb><D:/aleja/programas/mitex/fonts/type1/public/lm/lmr9.pfb><D:/a
 leja/programas/mitex/fonts/type1/public/lm/lmri12.pfb><D:/aleja/programas/mitex
 /fonts/type1/public/lm/lmri9.pfb><D:/aleja/programas/mitex/fonts/type1/public/l
 m/lmsy10.pfb><D:/aleja/programas/mitex/fonts/type1/public/lm/lmtt12.pfb>
-Output written on reporte.pdf (10 pages, 433351 bytes).
+Output written on reporte.pdf (10 pages, 433512 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
