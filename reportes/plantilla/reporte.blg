@@ -13,46 +13,51 @@ Database file #1: fuentes.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in Servomotors_ResolverFeedback
+Warning--empty journal in BFMX_SensoresInternosRobot
+Warning--empty journal in Omega_GalgasExtensiometricas
+Warning--empty journal in IngMecafenix_SensorPiezoelectrico
 
 Done.
-You've used 1 entry,
+You've used 4 entries,
             4087 wiz_defined-function locations,
-            827 strings with 7483 characters,
-and the built_in function-call counts, 620 in all, are:
-= -- 29
-> -- 19
-< -- 2
+            844 strings with 8088 characters,
+and the built_in function-call counts, 1500 in all, are:
+= -- 115
+> -- 16
+< -- 0
 + -- 8
 - -- 4
-* -- 44
-:= -- 100
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 1
-chr.to.int$ -- 6
-cite$ -- 1
-duplicate$ -- 44
-empty$ -- 58
-format.name$ -- 5
-if$ -- 126
+* -- 82
+:= -- 325
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 120
+empty$ -- 125
+format.name$ -- 4
+if$ -- 294
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 8
-newline$ -- 26
-num.names$ -- 1
-pop$ -- 27
+int.to.str$ -- 4
+missing$ -- 20
+newline$ -- 43
+num.names$ -- 4
+pop$ -- 56
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 35
+skip$ -- 109
 stack$ -- 0
-substring$ -- 6
-swap$ -- 24
+substring$ -- 4
+swap$ -- 56
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 29
+type$ -- 4
+warning$ -- 4
+while$ -- 4
+width$ -- 5
+write$ -- 62
+(There were 4 warnings)

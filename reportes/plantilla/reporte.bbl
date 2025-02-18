@@ -21,9 +21,31 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{barrientos2007fundamentos}
-A.~Barrientos, L.~F. Peñín, C.~Balaguer, and R.~Aracil, \emph{Fundamentos de
-  Robótica}, 2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Madrid, España:
-  McGraw-Hill/Interamericana de España, S.A.U., 2007.
+\bibitem{Servomotors_ResolverFeedback}
+\BIBentryALTinterwordspacing
+{Servomotors Adjust}, ``Resolver feedback en servomotores,'' 2025. [Online].
+  Available: \url{https://www.servomotorsadjust.com/resolver-feedback/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{BFMX_SensoresInternosRobot}
+\BIBentryALTinterwordspacing
+{British Federal Mexico}, ``Los 3 tipos de sensores internos de un robot
+  industrial,'' 2019. [Online]. Available:
+  \url{https://bfmx.com/maquinaria-y-equipo-para-soladura-por-resistencia/sensores-internos-de-un-robot-industrial/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Omega_GalgasExtensiometricas}
+\BIBentryALTinterwordspacing
+{Omega Engineering}, ``¿qué son las galgas extensiométricas?'' 2025.
+  [Online]. Available:
+  \url{https://es.omega.com/prodinfo/galgas-extensiometricas.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{IngMecafenix_SensorPiezoelectrico}
+\BIBentryALTinterwordspacing
+{Ingeniería Mecafenix}, ``Que es un sensor piezoeléctrico y para que sirve,''
+  2023. [Online]. Available:
+  \url{https://www.ingmecafenix.com/automatizacion/sensores/sensor-piezoelectrico/}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}
