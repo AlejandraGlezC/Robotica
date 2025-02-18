@@ -113,7 +113,13 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 		\item \text{Los resolvers no son susceptibles a la suciedad, aceite o ambientes calientes ya que los circuitos electrónicos están en otros dispositivos. Dispositivos como los encoders son más susceptibles a estas condiciones. Por eso, los resolvers han sido el dispositivo de realimentación escogido por muchos fabricantes.}
 	\end{itemize}
 \end{itemize}
-
+	\begin{figure}[h]
+	\centering
+	\subfloat[Resolver]{%
+		\includegraphics[width=0.4\textwidth]{resolver.jpeg}%
+		\label{fig:resolver}
+	}
+\end{figure}
 
 
 
@@ -128,12 +134,27 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 	\item \textbf{¿Qué hacen?} Esencialmente, los tacómetros miden la velocidad de rotación de un elemento, utilizando el principio de que “el voltaje producido es proporcional al índice del acoplamiento inductivo”, por lo que el conductor (una bobina) se sujeta al elemento rotativo que gira en un campo magnético (estator), para que así, conforme se incremente la velocidad del eje, también aumente el voltaje producido en las terminales de las bobinas, pudiéndola medir directamente.
 \end{itemize}
 
+	\begin{figure}[h]
+	\centering
+	\subfloat[Tacometro]{%
+		\includegraphics[width=0.4\textwidth]{tacometro.jpeg}%
+		\label{fig:tcmtro}
+	}
+\end{figure}
+
 \subsection*{Sensor de efecto Hall}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Otro dispositivo de medición de velocidad es el sensor de efecto Hall, cuyo principio se describe a continuación. Si una pieza plana de material conductivo llamada chip Hall se sujeta a una diferencia de potencial en sus dos lados opuestos, entonces el voltaje que se genera a través de las caras perpendiculares es cero. Pero si un campo magnético se induce en ángulos rectos al conductor, el voltaje se genera en las otras dos caras perpendiculares. Entre más alto sea el valor de campo, más lo será el nivel de voltaje. Si se utiliza un imán anular, el voltaje producido será proporcional a la velocidad de rotación del imán.
 	
 \end{itemize}
 
+	\begin{figure}[h]
+	\centering
+	\subfloat[Sensor de efecto Hall]{%
+		\includegraphics[width=0.4\textwidth]{sensorhall.jpeg}%
+		\label{fig:sh}
+	}
+\end{figure}
 
 \subsection{Sensores de aceleración} De manera parecida a las mediciones de velocidad que se dan a partir de la información de los sensores de posición, pueden encontrarse las aceleraciones como la razón de cambio respecto al tiempo de las velocidades obtenidas por los sensores de velocidad o calculado a partir de las informaciones de posición. Pero ésta no es una manera eficiente para calcular la aceleración, puesto que impondrá una carga de trabajo pesada sobre la computadora, lo que puede reducir la velocidad de operación del sistema. Otra forma de medir la aceleración es calculando la fuerza que resulta de multiplicar masa por aceleración. Las fuerzas se miden, por ejemplo, usando galgas extensométricas. 
 \subsection*{Sensores de fuerza} 
@@ -179,20 +200,20 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 	
 \end{itemize}
 
-
-Para usar dos imágenes como en \autoref{fig:mascotas}, se utilizó \texttt{subfloat}.
-% Dos imágenes de mascotas
+% Dos imágenes 
 \begin{figure}[h]
 	\centering
 	\subfloat[Perro]{%
-		\includegraphics[width=0.4\textwidth]{perro.jpg}%
+		\includegraphics[width=0.4\textwidth]{piezoelectrico1.jpeg}%
 		\label{fig:perro}
 	}
 	\hfill
 	\subfloat[Gato]{%
-		\includegraphics[width=0.4\textwidth]{gato.jpg}%
+		\includegraphics[width=0.4\textwidth]{piezoelectrico2.jpeg}%
 		\label{fig:gato}
 	}
-	\caption{Imagen de dos mascotas}
+	\caption{Sensor piezoeléctrico}
 	\label{fig:mascotas}
 \end{figure}
+
+\vspace{15cm}
