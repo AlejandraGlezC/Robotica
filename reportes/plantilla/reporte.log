@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  17 FEB 2025 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  17 FEB 2025 20:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,30 +708,30 @@ File: img/ale.jpeg Graphic file (type jpg)
 <use img/ale.jpeg>
 Package pdftex.def Info: img/ale.jpeg  used on input line 59.
 (pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
-<portada/perfil3.jpg, id=64, 1300.86pt x 1589.94pt>
-File: portada/perfil3.jpg Graphic file (type jpg)
-<use portada/perfil3.jpg>
-Package pdftex.def Info: portada/perfil3.jpg  used on input line 63.
-(pdftex.def)             Requested size: 69.83054pt x 85.35826pt.
-<portada/perfil4.jpg, id=65, 1300.86pt x 1589.94pt>
-File: portada/perfil4.jpg Graphic file (type jpg)
-<use portada/perfil4.jpg>
-Package pdftex.def Info: portada/perfil4.jpg  used on input line 67.
-(pdftex.def)             Requested size: 69.83054pt x 85.35826pt.
+<img/patsy.jpeg, id=64, 1084.05pt x 1084.05pt>
+File: img/patsy.jpeg Graphic file (type jpg)
+<use img/patsy.jpeg>
+Package pdftex.def Info: img/patsy.jpeg  used on input line 63.
+(pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
+<img/lou.jpeg, id=65, 1084.05pt x 1084.05pt>
+File: img/lou.jpeg Graphic file (type jpg)
+<use img/lou.jpeg>
+Package pdftex.def Info: img/lou.jpeg  used on input line 67.
+(pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
 
 
 [0{C:/Users/aleja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/aleja/pr
 ogramas/mitex/fonts/enc/dvips/lm/lm-ec.enc} <./portada/tecnm-eps-converted-to.p
 df> <./portada/SEP-eps-converted-to.pdf> <./portada/ith.jpg> <./portada/perfil1
-.jpg> <./img/ale.jpeg> <./portada/perfil3.jpg> <./portada/perfil4.jpg>])
-(reporte.toc
+.jpg> <./img/ale.jpeg> <./img/patsy.jpeg> <./img/lou.jpeg>]) (reporte.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@toc=\write4
 \openout4 = `reporte.toc'.
 
- (secciones/introduccion.tex) (secciones/imagenes.tex
+
+(secciones/introduccion.tex) (secciones/imagenes.tex
 
 [1]
 <img/Encoder.jpeg, id=102, 612.2875pt x 673.51625pt>
@@ -889,7 +889,7 @@ Package rerunfilecheck Info: File `reporte.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  15105 strings out of 473530
- 243981 string characters out of 5724414
+ 243889 string characters out of 5724414
  656953 words of memory out of 5000000
  38008 multiletter control sequences out of 15000+600000
  740002 words of font info for 140 fonts, out of 8000000 for 9000
@@ -904,7 +904,7 @@ blic/lm/lmr8.pfb><D:/aleja/programas/mitex/fonts/type1/public/lm/lmr9.pfb><D:/a
 leja/programas/mitex/fonts/type1/public/lm/lmri12.pfb><D:/aleja/programas/mitex
 /fonts/type1/public/lm/lmsy10.pfb><D:/aleja/programas/mitex/fonts/type1/public/
 lm/lmtt12.pfb>
-Output written on reporte.pdf (13 pages, 592134 bytes).
+Output written on reporte.pdf (13 pages, 682533 bytes).
 PDF statistics:
  286 PDF objects out of 1000 (max. 8388607)
  67 named destinations out of 1000 (max. 500000)
