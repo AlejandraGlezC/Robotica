@@ -15,29 +15,30 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 \end{itemize}
 
 
-
 \subsection*{Encoder absoluto}
 \begin{itemize}
 	\item \textbf{Encoder lineal absoluto: } Similar al incremental, pero proporciona un valor absoluto de la distancia en cualquier momento, evitando pérdida de pulsos a altas velocidades. Su salida es digital y utiliza una escala con secuencias de tiras opacas y transparentes que representan números binarios, permitiendo determinar la posición exacta.
 	\item \textbf{Encoder rotativo absoluto: } Funciona como el encoder lineal absoluto, pero con un disco dividido en tiras circulares con segmentos de arco definidos. Proporciona una salida digital absoluta y se monta directamente en el eje del motor o con engranajes para mayor precisión. Para reducir errores, puede usar un código Gray, que evita confusiones en la salida binaria al cambiar solo un bit a la vez.
+	
 \end{itemize}
+
 
 \begin{figure}[h]
 	\centering
-	\subfloat[Perro]{%
-		\includegraphics[width=0.4\textwidth]{perro.jpg}%
-		\label{fig:perro}
+	\subfloat[Encoder]{%
+		\includegraphics[width=0.8\textwidth]{Encoder.jpeg}%
+		\label{fig:encoder}
 	}
 \end{figure}
 
+\vspace{15cm}
 
 \subsection*{Potenciometro}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Es un dispositivo de resistencia variable que expresa desplazamientos lineales o angulares en términos de voltaje.
 	\item \textbf{Principio de funcionamiento:} Consiste en una clavija deslizante que hace contacto con un elemento resistivo; conforme se mueve este punto de contacto, la resistencia entre el contacto deslizante y las conexiones de los extremos del dispositivo cambia en proporción al desplazamiento, x y  para potenciómetros lineales y angulares, respectivamente.
+	\cite{Servomotors_ResolverFeedback}	
 \end{itemize}	
-
-
 
 
 \subsection*{Sensor LVDT}
@@ -46,9 +47,27 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 	
 	Un LVDT consiste en un tubo que contiene un eje que se mueve libremente (también conocido como armadura). La base del tubo está montada en una posición fija y el extremo de la varilla se fija a un objeto cuya posición se moverá de forma lineal (hacia adelante y hacia atrás).
 	
+	\begin{figure}[h]
+		\centering
+		\subfloat[LVDT]{%
+			\includegraphics[width=0.4\textwidth]{lvdt.jpeg}%
+			\label{fig:lvdt}
+		}
+	\end{figure}
+	
 	\item \textbf{Principio de funcionamiento:} Dentro de la carcasa del LVDT se encuentra la bobina primaria. A cada lado del conjunto de la bobina hay un par de bobinas secundarias. Excepto por sus posiciones físicas, los tres devanados primarios son idénticos. Sin embargo, están conectados en serie con la oposición, de modo que si se energizan por igual, sus salidas sumarán cero.
 	
 	Tenga en cuenta que estos elementos internos normalmente están construidos de tal manera que están protegidos contra la humedad y los campos magnéticos externos.
+	
+	\begin{figure}[h]
+		\centering
+		\subfloat[LVDT]{%
+			\includegraphics[width=0.6\textwidth]{lvdt2.jpeg}%
+			\label{fig:lvdt2}
+		}
+	\end{figure}
+	
+	\vspace{15cm}
 	
 	\item \textbf{Tipos de LVDT o variedades mecánicas}
 	
@@ -119,8 +138,7 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 \subsection{Sensores de aceleración} De manera parecida a las mediciones de velocidad que se dan a partir de la información de los sensores de posición, pueden encontrarse las aceleraciones como la razón de cambio respecto al tiempo de las velocidades obtenidas por los sensores de velocidad o calculado a partir de las informaciones de posición. Pero ésta no es una manera eficiente para calcular la aceleración, puesto que impondrá una carga de trabajo pesada sobre la computadora, lo que puede reducir la velocidad de operación del sistema. Otra forma de medir la aceleración es calculando la fuerza que resulta de multiplicar masa por aceleración. Las fuerzas se miden, por ejemplo, usando galgas extensométricas. 
 \subsection*{Sensores de fuerza} 
 \begin{itemize}
-	\item \textbf{¿Qué hacen?} Una balanza de resorte es un ejemplo de un sensor de fuerza en donde se aplica una fuerza, por ejemplo, el peso, al platillo de balanza que causa un desplazamiento, es decir, el resorte se estira. El desplazamiento es entonces una medida de la fuerza. Existen otros tipos de sensores de fuerza, por ejemplo, con base en galgas, utilizando el sensor de efecto Hall, etcétera.
-	
+	\item \textbf{¿Qué hacen?} Una balanza de resorte es un ejemplo de un sensor de fuerza en donde se aplica una fuerza, por ejemplo, el peso, al platillo de balanza que causa un desplazamiento, es decir, el resorte se estira. El desplazamiento es entonces una medida de la fuerza. Existen otros tipos de sensores de fuerza, por ejemplo, con base en galgas, utilizando el sensor de efecto Hall, etcétera. \cite{BFMX_SensoresInternosRobot}
 \end{itemize}
 \subsection{Sensores de fuerza}
 \subsection*{Galgas extensiométricas}
@@ -139,16 +157,28 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 		Sensores totalmente encapsulados para proteger el dispositivo de condiciones ambientales.
 		\item \text{Galgas extensiométricas de calidad:} La serie SGT de galgas extensiométricas de calidad de transductor tiene rejillas paralelas dobles, para tensión de dobladura o de eje
 		Aplicaciones de corte o torque
-		Aplicaciones de transductor personalizadas de curva doble.
+		Aplicaciones de transductor personalizadas de curva doble. \cite{Omega_GalgasExtensiometricas}
 	\end{itemize}
-
 \end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\subfloat[Galgas extensiometricas]{%
+		\includegraphics[width=0.4\textwidth]{galgas.jpeg}%
+		\label{fig:galgas}
+	}
+\end{figure}
+
+
+
 	\subsection*{Sensor piezoeléctrico}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} 
 	Un material piezoeléctrico presenta un fenómeno conocido como efecto piezoeléctrico. Este efecto señala que cuando cristales elásticos asimétricos se deforman mediante una fuerza, se desarrollará un potencial eléctrico dentro de la red cristalina deformada. Este efecto es reversible. Esto quiere decir que si se aplica un voltaje entre las superficies del cristal, éste cambiará sus dimensiones físicas. La magnitud y polaridad de las cargas inducidas son proporcionales a la magnitud y dirección de la fuerza aplicada. Los materiales piezoeléctricos son cuarzo, turmalina, sal de Rochalle y otros. El rango de fuerzas que pueden medirse usando sensores piezoeléctricos es de 1 a 20 kN y con una proporción de $2*10^{5}.$ 
-	Estos sensores pueden usarse para medir un cambio instantáneo en la fuerza (fuerzas dinámicas).
+	Estos sensores pueden usarse para medir un cambio instantáneo en la fuerza (fuerzas dinámicas). \cite{IngMecafenix_SensorPiezoelectrico}
+	
 \end{itemize}
+
 
 Para usar dos imágenes como en \autoref{fig:mascotas}, se utilizó \texttt{subfloat}.
 % Dos imágenes de mascotas
