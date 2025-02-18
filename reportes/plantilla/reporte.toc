@@ -7,9 +7,9 @@
 \contentsline {subsection}{\numberline {\mbox {II-D}}Sensores de fuerza}{4}{subsection.2.4}%
 \contentsline {section}{\numberline {III}Sensores externos}{5}{section.3}%
 \contentsline {subsection}{\numberline {\mbox {III-A}}Sensores de contacto}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {\mbox {III-B}}Sensores sin contacto}{6}{subsection.3.2}%
-\contentsline {section}{\numberline {IV}Otros sensores}{8}{section.4}%
-\contentsline {section}{\numberline {V}Conclusión}{9}{section.5}%
-\contentsline {subsection}{\numberline {\mbox {V-A}}Persona 1}{9}{subsection.5.1}%
-\contentsline {subsection}{\numberline {\mbox {V-B}}Persona 2}{9}{subsection.5.2}%
-\contentsline {section}{Referencias}{9}{section*.28}%
+\contentsline {subsection}{\numberline {\mbox {III-B}}Sensores sin contacto}{7}{subsection.3.2}%
+\contentsline {section}{\numberline {IV}Otros sensores}{10}{section.4}%
+\contentsline {section}{\numberline {V}Conclusión}{12}{section.5}%
+\contentsline {subsection}{\numberline {\mbox {V-A}}Persona 1}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {\mbox {V-B}}Persona 2}{12}{subsection.5.2}%
+\contentsline {section}{Referencias}{12}{section*.41}%
