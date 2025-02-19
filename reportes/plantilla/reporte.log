@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  19 FEB 2025 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  19 FEB 2025 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,7 +665,7 @@ Package epstopdf Info: Source file: <portada/tecnm.eps>
 nverted-to.pdf portada/tecnm.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<portada/tecnm-eps-converted-to.pdf, id=87, 83.31125pt x 37.13875pt>
+<portada/tecnm-eps-converted-to.pdf, id=151, 83.31125pt x 37.13875pt>
 File: portada/tecnm-eps-converted-to.pdf Graphic file (type pdf)
 <use portada/tecnm-eps-converted-to.pdf>
 Package pdftex.def Info: portada/tecnm-eps-converted-to.pdf  used on input line
@@ -681,18 +681,18 @@ Package epstopdf Info: Source file: <portada/SEP.eps>
 erted-to.pdf portada/SEP.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
-<portada/SEP-eps-converted-to.pdf, id=88, 561.09625pt x 173.64874pt>
+<portada/SEP-eps-converted-to.pdf, id=152, 561.09625pt x 173.64874pt>
 File: portada/SEP-eps-converted-to.pdf Graphic file (type pdf)
 <use portada/SEP-eps-converted-to.pdf>
 Package pdftex.def Info: portada/SEP-eps-converted-to.pdf  used on input line 7
 .
 (pdftex.def)             Requested size: 137.90215pt x 42.67912pt.
-<portada/ith.jpg, id=89, 173.14688pt x 176.15813pt>
+<portada/ith.jpg, id=153, 173.14688pt x 176.15813pt>
 File: portada/ith.jpg Graphic file (type jpg)
 <use portada/ith.jpg>
 Package pdftex.def Info: portada/ith.jpg  used on input line 8.
 (pdftex.def)             Requested size: 55.93124pt x 56.9055pt.
-<img/ais.jpeg, id=90, 1084.05pt x 1084.05pt>
+<img/ais.jpeg, id=154, 1084.05pt x 1084.05pt>
 File: img/ais.jpeg Graphic file (type jpg)
 <use img/ais.jpeg>
 Package pdftex.def Info: img/ais.jpeg  used on input line 55.
@@ -703,17 +703,17 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
 (D:\aleja\programas\mitex\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<img/ale.jpeg, id=91, 1084.05pt x 1084.05pt>
+<img/ale.jpeg, id=155, 1084.05pt x 1084.05pt>
 File: img/ale.jpeg Graphic file (type jpg)
 <use img/ale.jpeg>
 Package pdftex.def Info: img/ale.jpeg  used on input line 59.
 (pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
-<img/patsy.jpeg, id=92, 1084.05pt x 1084.05pt>
+<img/patsy.jpeg, id=156, 1084.05pt x 1084.05pt>
 File: img/patsy.jpeg Graphic file (type jpg)
 <use img/patsy.jpeg>
 Package pdftex.def Info: img/patsy.jpeg  used on input line 63.
 (pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
-<img/lou.jpeg, id=93, 1084.05pt x 1084.05pt>
+<img/lou.jpeg, id=157, 1084.05pt x 1084.05pt>
 File: img/lou.jpeg Graphic file (type jpg)
 <use img/lou.jpeg>
 Package pdftex.def Info: img/lou.jpeg  used on input line 67.
@@ -740,7 +740,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 [2]
-<img/Encoder.jpeg, id=140, 612.2875pt x 673.51625pt>
+<img/Encoder.jpeg, id=220, 612.2875pt x 673.51625pt>
 File: img/Encoder.jpeg Graphic file (type jpg)
 <use img/Encoder.jpeg>
 Package pdftex.def Info: img/Encoder.jpeg  used on input line 32.
@@ -748,12 +748,12 @@ Package pdftex.def Info: img/Encoder.jpeg  used on input line 32.
 
 
 [3 <./img/Encoder.jpeg>]
-<img/lvdt.jpeg, id=148, 321.2pt x 292.09125pt>
+<img/lvdt.jpeg, id=228, 321.2pt x 292.09125pt>
 File: img/lvdt.jpeg Graphic file (type jpg)
 <use img/lvdt.jpeg>
 Package pdftex.def Info: img/lvdt.jpeg  used on input line 56.
 (pdftex.def)             Requested size: 206.39685pt x 187.69542pt.
-<img/lvdt2.jpeg, id=149, 321.2pt x 116.435pt>
+<img/lvdt2.jpeg, id=229, 321.2pt x 116.435pt>
 File: img/lvdt2.jpeg Graphic file (type jpg)
 <use img/lvdt2.jpeg>
 Package pdftex.def Info: img/lvdt2.jpeg  used on input line 68.
@@ -772,7 +772,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 [5{D:/aleja/programas/mitex/fonts/enc/dvips/lm/lm-ts1.enc} <./img/lvdt2.jpeg>]
-<img/resolver.jpeg, id=165, 321.2pt x 213.79875pt>
+<img/resolver.jpeg, id=245, 321.2pt x 213.79875pt>
 File: img/resolver.jpeg Graphic file (type jpg)
 <use img/resolver.jpeg>
 Package pdftex.def Info: img/resolver.jpeg  used on input line 121.
@@ -782,7 +782,7 @@ Package pdftex.def Info: img/resolver.jpeg  used on input line 121.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 128.
 
-<img/tacometro.jpeg, id=167, 321.2pt x 261.97874pt>
+<img/tacometro.jpeg, id=247, 321.2pt x 261.97874pt>
 File: img/tacometro.jpeg Graphic file (type jpg)
 <use img/tacometro.jpeg>
 Package pdftex.def Info: img/tacometro.jpeg  used on input line 146.
@@ -790,7 +790,7 @@ Package pdftex.def Info: img/tacometro.jpeg  used on input line 146.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/sensorhall.jpeg, id=169, 321.2pt x 240.9pt>
+<img/sensorhall.jpeg, id=249, 321.2pt x 240.9pt>
 File: img/sensorhall.jpeg Graphic file (type jpg)
 <use img/sensorhall.jpeg>
 Package pdftex.def Info: img/sensorhall.jpeg  used on input line 161.
@@ -799,48 +799,60 @@ Package pdftex.def Info: img/sensorhall.jpeg  used on input line 161.
 
 [6 <./img/resolver.jpeg>]
 
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 167.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 174.
+
+
+
 [7 <./img/tacometro.jpeg> <./img/sensorhall.jpeg>]
-<img/galgas.jpeg, id=186, 214.8025pt x 146.5475pt>
+<img/galgas.jpeg, id=267, 214.8025pt x 146.5475pt>
 File: img/galgas.jpeg Graphic file (type jpg)
 <use img/galgas.jpeg>
-Package pdftex.def Info: img/galgas.jpeg  used on input line 196.
+Package pdftex.def Info: img/galgas.jpeg  used on input line 200.
 (pdftex.def)             Requested size: 206.39685pt x 140.8159pt.
 
 
 [8 <./img/galgas.jpeg>]
-<img/piezoelectrico1.jpeg, id=196, 149.05687pt x 129.48375pt>
+<img/piezoelectrico1.jpeg, id=276, 149.05687pt x 129.48375pt>
 File: img/piezoelectrico1.jpeg Graphic file (type jpg)
 <use img/piezoelectrico1.jpeg>
-Package pdftex.def Info: img/piezoelectrico1.jpeg  used on input line 215.
+Package pdftex.def Info: img/piezoelectrico1.jpeg  used on input line 219.
 (pdftex.def)             Requested size: 206.39685pt x 179.30417pt.
-<img/piezoelectrico2.jpeg, id=197, 124.96687pt x 124.96687pt>
+<img/piezoelectrico2.jpeg, id=277, 124.96687pt x 124.96687pt>
 File: img/piezoelectrico2.jpeg Graphic file (type jpg)
 <use img/piezoelectrico2.jpeg>
-Package pdftex.def Info: img/piezoelectrico2.jpeg  used on input line 220.
+Package pdftex.def Info: img/piezoelectrico2.jpeg  used on input line 224.
 (pdftex.def)             Requested size: 206.39685pt x 206.41716pt.
 ) (secciones/tablas.tex
 
 [9{D:/aleja/programas/mitex/fonts/enc/dvips/lm/lm-rm.enc}{D:/aleja/programas/mi
 tex/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/aleja/programas/mitex/fonts/enc/dvips/
 lm/lm-mathit.enc} <./img/piezoelectrico1.jpeg> <./img/piezoelectrico2.jpeg>]
-<img/sensor de limite.jpg, id=208, 421.575pt x 397.485pt>
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 6.
+
+<img/sensor de limite.jpg, id=288, 421.575pt x 397.485pt>
 File: img/sensor de limite.jpg Graphic file (type jpg)
 <use img/sensor de limite.jpg>
-Package pdftex.def Info: img/sensor de limite.jpg  used on input line 16.
+Package pdftex.def Info: img/sensor de limite.jpg  used on input line 18.
 (pdftex.def)             Requested size: 154.80157pt x 145.95723pt.
-<img/sensor neumatico.jpg, id=209, 501.875pt x 501.875pt>
+<img/sensor neumatico.jpg, id=289, 501.875pt x 501.875pt>
 File: img/sensor neumatico.jpg Graphic file (type jpg)
 <use img/sensor neumatico.jpg>
-Package pdftex.def Info: img/sensor neumatico.jpg  used on input line 30.
+Package pdftex.def Info: img/sensor neumatico.jpg  used on input line 34.
 (pdftex.def)             Requested size: 154.80157pt x 154.79852pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/sensor piezoelectrico.jpg, id=210, 501.875pt x 501.875pt>
+<img/sensor piezoelectrico.jpg, id=290, 501.875pt x 501.875pt>
 File: img/sensor piezoelectrico.jpg Graphic file (type jpg)
 <use img/sensor piezoelectrico.jpg>
-Package pdftex.def Info: img/sensor piezoelectrico.jpg  used on input line 44.
+Package pdftex.def Info: img/sensor piezoelectrico.jpg  used on input line 50.
 (pdftex.def)             Requested size: 154.80157pt x 154.79852pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -848,43 +860,49 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 [10 <./img/sensor de limite.jpg>]
-<img/transductor de presion.jpg, id=219, 451.6875pt x 451.6875pt>
+<img/transductor de presion.jpg, id=298, 451.6875pt x 451.6875pt>
 File: img/transductor de presion.jpg Graphic file (type jpg)
 <use img/transductor de presion.jpg>
-Package pdftex.def Info: img/transductor de presion.jpg  used on input line 58.
+Package pdftex.def Info: img/transductor de presion.jpg  used on input line 66.
 
 (pdftex.def)             Requested size: 154.80157pt x 154.8054pt.
 
 
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 72.
+
+
+
 [11 <./img/sensor neumatico.jpg> <./img/sensor piezoelectrico.jpg> <./img/trans
 ductor de presion.jpg>]
-<img/sensor de proximidad.jpg, id=228, 361.35pt x 361.35pt>
+<img/sensor de proximidad.jpg, id=305, 361.35pt x 361.35pt>
 File: img/sensor de proximidad.jpg Graphic file (type jpg)
 <use img/sensor de proximidad.jpg>
-Package pdftex.def Info: img/sensor de proximidad.jpg  used on input line 80.
+Package pdftex.def Info: img/sensor de proximidad.jpg  used on input line 90.
 (pdftex.def)             Requested size: 154.80157pt x 154.79852pt.
-<img/sensor de efecto hall.jpg, id=229, 803.0pt x 803.0pt>
+<img/sensor de efecto hall.jpg, id=306, 803.0pt x 803.0pt>
 File: img/sensor de efecto hall.jpg Graphic file (type jpg)
 <use img/sensor de efecto hall.jpg>
-Package pdftex.def Info: img/sensor de efecto hall.jpg  used on input line 94.
+Package pdftex.def Info: img/sensor de efecto hall.jpg  used on input line 106.
+
 (pdftex.def)             Requested size: 154.80157pt x 154.80159pt.
 
 
 [12 <./img/sensor de proximidad.jpg> <./img/sensor de efecto hall.jpg>]
-<img/sensor de microondas.jpg, id=240, 1606.0pt x 1606.0pt>
+<img/sensor de microondas.jpg, id=315, 1606.0pt x 1606.0pt>
 File: img/sensor de microondas.jpg Graphic file (type jpg)
 <use img/sensor de microondas.jpg>
-Package pdftex.def Info: img/sensor de microondas.jpg  used on input line 108.
+Package pdftex.def Info: img/sensor de microondas.jpg  used on input line 122.
 (pdftex.def)             Requested size: 154.80157pt x 154.80159pt.
-<img/sensor ultrasonico.jpg, id=241, 702.625pt x 702.625pt>
+<img/sensor ultrasonico.jpg, id=316, 702.625pt x 702.625pt>
 File: img/sensor ultrasonico.jpg Graphic file (type jpg)
 <use img/sensor ultrasonico.jpg>
-Package pdftex.def Info: img/sensor ultrasonico.jpg  used on input line 122.
+Package pdftex.def Info: img/sensor ultrasonico.jpg  used on input line 138.
 (pdftex.def)             Requested size: 154.80157pt x 154.80312pt.
-<img/sensor laser.jpg, id=242, 682.55pt x 626.34pt>
+<img/sensor laser.jpg, id=317, 682.55pt x 626.34pt>
 File: img/sensor laser.jpg Graphic file (type jpg)
 <use img/sensor laser.jpg>
-Package pdftex.def Info: img/sensor laser.jpg  used on input line 136.
+Package pdftex.def Info: img/sensor laser.jpg  used on input line 154.
 (pdftex.def)             Requested size: 154.80157pt x 142.04816pt.
 
 
@@ -894,31 +912,39 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13 <./img/sensor de microondas.jpg> <./img/sensor ultrasonico.jpg>])
 (secciones/ecuaciones.tex
-<img/giroscopio.jpg, id=251, 84.315pt x 84.315pt>
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 3.
+
+<img/giroscopio.jpg, id=324, 84.315pt x 84.315pt>
 File: img/giroscopio.jpg Graphic file (type jpg)
 <use img/giroscopio.jpg>
-Package pdftex.def Info: img/giroscopio.jpg  used on input line 16.
+Package pdftex.def Info: img/giroscopio.jpg  used on input line 18.
 (pdftex.def)             Requested size: 154.80157pt x 154.80565pt.
 
 
 [14 <./img/sensor laser.jpg> <./img/giroscopio.jpg>]
-<img/acelerometro.jpg, id=261, 602.25pt x 602.25pt>
+<img/acelerometro.jpg, id=332, 602.25pt x 602.25pt>
 File: img/acelerometro.jpg Graphic file (type jpg)
 <use img/acelerometro.jpg>
-Package pdftex.def Info: img/acelerometro.jpg  used on input line 32.
+Package pdftex.def Info: img/acelerometro.jpg  used on input line 36.
 (pdftex.def)             Requested size: 154.80157pt x 154.79852pt.
-<img/magnetometro.jpg, id=262, 258.9675pt x 258.9675pt>
+<img/magnetometro.jpg, id=333, 258.9675pt x 258.9675pt>
 File: img/magnetometro.jpg Graphic file (type jpg)
 <use img/magnetometro.jpg>
-Package pdftex.def Info: img/magnetometro.jpg  used on input line 48.
+Package pdftex.def Info: img/magnetometro.jpg  used on input line 54.
 (pdftex.def)             Requested size: 154.80157pt x 154.8087pt.
 
 
 [15 <./img/acelerometro.jpg> <./img/magnetometro.jpg>]
-<img/LiDAR.jpg, id=271, 451.6875pt x 451.6875pt>
+<img/LiDAR.jpg, id=340, 451.6875pt x 451.6875pt>
 File: img/LiDAR.jpg Graphic file (type jpg)
 <use img/LiDAR.jpg>
-Package pdftex.def Info: img/LiDAR.jpg  used on input line 65.
+Package pdftex.def Info: img/LiDAR.jpg  used on input line 73.
 (pdftex.def)             Requested size: 154.80157pt x 154.8054pt.
 )
 (secciones/conclusion.tex) (reporte.bbl
@@ -937,13 +963,13 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `reporte.out' has not changed.
-(rerunfilecheck)             Checksum: BD55CC2EC305B088BB90BC07948DBCE2;2932.
+(rerunfilecheck)             Checksum: 397EFC6E0B4B65248A91F92189D392B0;5659.
  ) 
 Here is how much of TeX's memory you used:
- 15303 strings out of 473530
- 249391 string characters out of 5724414
- 652138 words of memory out of 5000000
- 38187 multiletter control sequences out of 15000+600000
+ 15324 strings out of 473530
+ 249720 string characters out of 5724414
+ 654154 words of memory out of 5000000
+ 38203 multiletter control sequences out of 15000+600000
  740002 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,819b,645s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -956,9 +982,9 @@ blic/lm/lmr8.pfb><D:/aleja/programas/mitex/fonts/type1/public/lm/lmr9.pfb><D:/a
 leja/programas/mitex/fonts/type1/public/lm/lmri12.pfb><D:/aleja/programas/mitex
 /fonts/type1/public/lm/lmsy10.pfb><D:/aleja/programas/mitex/fonts/type1/public/
 lm/lmtt12.pfb>
-Output written on reporte.pdf (17 pages, 1162212 bytes).
+Output written on reporte.pdf (17 pages, 1171669 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 314 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 439 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 442 words of extra memory for PDF output out of 10000 (max. 10000000)
 
