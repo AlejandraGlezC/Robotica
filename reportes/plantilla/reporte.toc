@@ -17,6 +17,6 @@
 \contentsline {subsection}{\numberline {\mbox {III-D}}Sensores de fuerza}{8}{subsection.3.4}%
 \contentsline {section}{\numberline {IV}Sensores externos}{10}{section.4}%
 \contentsline {subsection}{\numberline {\mbox {IV-A}}Sensores de contacto}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {\mbox {IV-B}}Sensores sin contacto}{10}{subsection.4.2}%
-\contentsline {section}{\numberline {V}Otros sensores}{12}{section.5}%
-\contentsline {section}{Referencias}{13}{section*.37}%
+\contentsline {subsection}{\numberline {\mbox {IV-B}}Sensores sin contacto}{11}{subsection.4.2}%
+\contentsline {section}{\numberline {V}Otros sensores}{14}{section.5}%
+\contentsline {section}{Referencias}{16}{section*.50}%
