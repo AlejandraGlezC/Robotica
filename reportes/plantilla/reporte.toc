@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {\mbox {III-B}}Sensores de velocidad}{6}{subsection.3.2}%
 \contentsline {subsubsection}{Sensores de posición}{6}{section*.12}%
 \contentsline {subsubsection}{Tacómetro}{6}{section*.13}%
-\contentsline {subsubsection}{Sensor de efecto Hall}{6}{figure.caption.15}%
+\contentsline {subsubsection}{Sensor de efecto Hall}{7}{figure.caption.15}%
 \contentsline {subsection}{\numberline {\mbox {III-C}}Sensores de aceleración}{7}{subsection.3.3}%
 \contentsline {subsubsection}{Todos los sensores de fuerza}{7}{section*.18}%
 \contentsline {subsection}{\numberline {\mbox {III-D}}Sensores de fuerza}{8}{subsection.3.4}%
