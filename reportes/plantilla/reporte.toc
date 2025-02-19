@@ -1,13 +1,13 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {I}Introducción}{1}{section.1}%
-\contentsline {section}{\numberline {II}Sensores}{1}{section.2}%
-\contentsline {section}{\numberline {III}Sensores internos}{1}{section.3}%
-\contentsline {subsection}{\numberline {\mbox {III-A}}Sensores de posición}{1}{subsection.3.1}%
+\contentsline {section}{\numberline {I}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {II}Sensores}{2}{section.2}%
+\contentsline {section}{\numberline {III}Sensores internos}{2}{section.3}%
+\contentsline {subsection}{\numberline {\mbox {III-A}}Sensores de posición}{2}{subsection.3.1}%
 \contentsline {subsection}{\numberline {\mbox {III-B}}Sensores de velocidad}{6}{subsection.3.2}%
 \contentsline {subsection}{\numberline {\mbox {III-C}}Sensores de aceleración}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {\mbox {III-D}}Sensores de fuerza}{7}{subsection.3.4}%
-\contentsline {section}{\numberline {IV}Sensores externos}{9}{section.4}%
-\contentsline {subsection}{\numberline {\mbox {IV-A}}Sensores de contacto}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {\mbox {III-D}}Sensores de fuerza}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {IV}Sensores externos}{10}{section.4}%
+\contentsline {subsection}{\numberline {\mbox {IV-A}}Sensores de contacto}{10}{subsection.4.1}%
 \contentsline {subsection}{\numberline {\mbox {IV-B}}Sensores sin contacto}{10}{subsection.4.2}%
-\contentsline {section}{\numberline {V}Otros sensores}{11}{section.5}%
-\contentsline {section}{Referencias}{12}{section*.35}%
+\contentsline {section}{\numberline {V}Otros sensores}{12}{section.5}%
+\contentsline {section}{Referencias}{13}{section*.35}%
