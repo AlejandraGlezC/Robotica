@@ -21,10 +21,30 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Dewesoft_LVDT}
+\BIBentryALTinterwordspacing
+{Dewesoft}, ``Medición de posición y desplazamiento con sensores lvdt,''
+  2025. [Online]. Available:
+  \url{https://dewesoft.com/es/blog/medir-posicion-desplazamiento-con-sensores-lvdt}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Servomotors_ResolverFeedback}
 \BIBentryALTinterwordspacing
 {Servomotors Adjust}, ``Resolver feedback en servomotores,'' 2025. [Online].
   Available: \url{https://www.servomotorsadjust.com/resolver-feedback/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{MercadoLibre_SensorTacometro}
+\BIBentryALTinterwordspacing
+{Mercado Libre México}, ``Sensor de velocidad tacómetro eléctrico 2 puntas
+  kenworth,'' 2025. [Online]. Available:
+  \url{https://articulo.mercadolibre.com.mx/MLM-1899279255-sensor-de-velocidad-tacometro-electrico-2-puntas-kenworth-_JM}
+\BIBentrySTDinterwordspacing
+
+\bibitem{TE_Connectivity_Sensor}
+\BIBentryALTinterwordspacing
+{TE Connectivity}, ``Cat-sps0021 - sensor de te connectivity,'' 2025. [Online].
+  Available: \url{https://www.te.com/es/product-CAT-SPS0021.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{BFMX_SensoresInternosRobot}

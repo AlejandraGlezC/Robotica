@@ -37,13 +37,12 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Es un dispositivo de resistencia variable que expresa desplazamientos lineales o angulares en términos de voltaje.
 	\item \textbf{Principio de funcionamiento:} Consiste en una clavija deslizante que hace contacto con un elemento resistivo; conforme se mueve este punto de contacto, la resistencia entre el contacto deslizante y las conexiones de los extremos del dispositivo cambia en proporción al desplazamiento, x y  para potenciómetros lineales y angulares, respectivamente.
-	\cite{Servomotors_ResolverFeedback}	
 \end{itemize}	
 
 
 \subsection*{Sensor LVDT}
 \begin{itemize}
-	\item \textbf{¿Qué hacen?} Los LVDT (transformadores diferenciales variables lineales) son sensores de posición lineal. Se utilizan para medir el desplazamiento lineal y la posición en distancias relativamente cortas. En la actualidad, existen LVDT en el mercado que pueden medir movimientos tan pequeños como varias millonésimas de cm (micro pulgadas) o incluso hasta aproximadamente 0,7 metros (~ 27 pulgadas) en el otro extremo.
+	\item \textbf{¿Qué hacen?} Los LVDT (transformadores diferenciales variables lineales) son sensores de posición lineal. Se utilizan para medir el desplazamiento lineal y la posición en distancias relativamente cortas. En la actualidad, existen LVDT en el mercado que pueden medir movimientos tan pequeños como varias millonésimas de cm (micro pulgadas) o incluso hasta aproximadamente 0,7 metros (~ 27 pulgadas) en el otro extremo. \cite{Dewesoft_LVDT} 
 	
 	Un LVDT consiste en un tubo que contiene un eje que se mueve libremente (también conocido como armadura). La base del tubo está montada en una posición fija y el extremo de la varilla se fija a un objeto cuya posición se moverá de forma lineal (hacia adelante y hacia atrás).
 	
@@ -96,7 +95,7 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Un resolver es un sensor analógico de posición rotatoria, que a través de impulsos digitales puede regular la velocidad, la posición o el torque.
 	
-	El resolver consiste en una parte estacionaria llamada estator y una parte giratoria llamada rotor, que es montada al eje del motor.
+	El resolver consiste en una parte estacionaria llamada estator y una parte giratoria llamada rotor, que es montada al eje del motor. \cite{Servomotors_ResolverFeedback}
 	
 	\item \textbf{Principio de funcionamiento:} El bobinado primario del estator está conectado a una señal sinusoidal de alta frecuencia. Esta señal se transmite al bobinado del rotor, porque el bobinado primario del estator y el bobinado del rotor actúan juntos como un transformador. El campo magnético alternante pulsante del bobinado del rotor ahora induce una voltaje alterna en los bobinados de medición seno y coseno. Sus amplitudes, sin embargo, dependen de la posición angular del rotor.
 	Si el bobinado del rotor y el bobinado de medición están paralelos el uno al otro, el campo del rotor magnético pasa completamente por la bobina de medición y, por lo tanto, el voltaje inducido es máximo.
@@ -131,7 +130,7 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 \end{itemize}
 \subsection*{Tacómetro}
 \begin{itemize}
-	\item \textbf{¿Qué hacen?} Esencialmente, los tacómetros miden la velocidad de rotación de un elemento, utilizando el principio de que “el voltaje producido es proporcional al índice del acoplamiento inductivo”, por lo que el conductor (una bobina) se sujeta al elemento rotativo que gira en un campo magnético (estator), para que así, conforme se incremente la velocidad del eje, también aumente el voltaje producido en las terminales de las bobinas, pudiéndola medir directamente.
+	\item \textbf{¿Qué hacen?} Esencialmente, los tacómetros miden la velocidad de rotación de un elemento, utilizando el principio de que “el voltaje producido es proporcional al índice del acoplamiento inductivo”, por lo que el conductor (una bobina) se sujeta al elemento rotativo que gira en un campo magnético (estator), para que así, conforme se incremente la velocidad del eje, también aumente el voltaje producido en las terminales de las bobinas, pudiéndola medir directamente. 	\cite{BFMX_SensoresInternosRobot} 		
 \end{itemize}
 
 	\begin{figure}[h]
@@ -144,8 +143,8 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 
 \subsection*{Sensor de efecto Hall}
 \begin{itemize}
-	\item \textbf{¿Qué hacen?} Otro dispositivo de medición de velocidad es el sensor de efecto Hall, cuyo principio se describe a continuación. Si una pieza plana de material conductivo llamada chip Hall se sujeta a una diferencia de potencial en sus dos lados opuestos, entonces el voltaje que se genera a través de las caras perpendiculares es cero. Pero si un campo magnético se induce en ángulos rectos al conductor, el voltaje se genera en las otras dos caras perpendiculares. Entre más alto sea el valor de campo, más lo será el nivel de voltaje. Si se utiliza un imán anular, el voltaje producido será proporcional a la velocidad de rotación del imán.
-	
+	\item \textbf{¿Qué hacen?} Otro dispositivo de medición de velocidad es el sensor de efecto Hall, cuyo principio se describe a continuación. Si una pieza plana de material conductivo llamada chip Hall se sujeta a una diferencia de potencial en sus dos lados opuestos, entonces el voltaje que se genera a través de las caras perpendiculares es cero. Pero si un campo magnético se induce en ángulos rectos al conductor, el voltaje se genera en las otras dos caras perpendiculares. Entre más alto sea el valor de campo, más lo será el nivel de voltaje. Si se utiliza un imán anular, el voltaje producido será proporcional a la velocidad de rotación del imán. \cite{TE_Connectivity_Sensor}
+
 \end{itemize}
 
 	\begin{figure}[h]
@@ -159,7 +158,7 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 \subsection{Sensores de aceleración} De manera parecida a las mediciones de velocidad que se dan a partir de la información de los sensores de posición, pueden encontrarse las aceleraciones como la razón de cambio respecto al tiempo de las velocidades obtenidas por los sensores de velocidad o calculado a partir de las informaciones de posición. Pero ésta no es una manera eficiente para calcular la aceleración, puesto que impondrá una carga de trabajo pesada sobre la computadora, lo que puede reducir la velocidad de operación del sistema. Otra forma de medir la aceleración es calculando la fuerza que resulta de multiplicar masa por aceleración. Las fuerzas se miden, por ejemplo, usando galgas extensométricas. 
 \subsection*{Sensores de fuerza} 
 \begin{itemize}
-	\item \textbf{¿Qué hacen?} Una balanza de resorte es un ejemplo de un sensor de fuerza en donde se aplica una fuerza, por ejemplo, el peso, al platillo de balanza que causa un desplazamiento, es decir, el resorte se estira. El desplazamiento es entonces una medida de la fuerza. Existen otros tipos de sensores de fuerza, por ejemplo, con base en galgas, utilizando el sensor de efecto Hall, etcétera. \cite{BFMX_SensoresInternosRobot}
+	\item \textbf{¿Qué hacen?} Una balanza de resorte es un ejemplo de un sensor de fuerza en donde se aplica una fuerza, por ejemplo, el peso, al platillo de balanza que causa un desplazamiento, es decir, el resorte se estira. El desplazamiento es entonces una medida de la fuerza. Existen otros tipos de sensores de fuerza, por ejemplo, con base en galgas, utilizando el sensor de efecto Hall, etcétera. 
 \end{itemize}
 \subsection{Sensores de fuerza}
 \subsection*{Galgas extensiométricas}
@@ -203,14 +202,14 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 % Dos imágenes 
 \begin{figure}[h]
 	\centering
-	\subfloat[Perro]{%
+	\subfloat[]{%
 		\includegraphics[width=0.4\textwidth]{piezoelectrico1.jpeg}%
-		\label{fig:perro}
+		\label{fig:spe1}
 	}
 	\hfill
-	\subfloat[Gato]{%
+	\subfloat[]{%
 		\includegraphics[width=0.4\textwidth]{piezoelectrico2.jpeg}%
-		\label{fig:gato}
+		\label{fig:spe2}
 	}
 	\caption{Sensor piezoeléctrico}
 	\label{fig:mascotas}
