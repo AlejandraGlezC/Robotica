@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.17)  19 FEB 2025 10:16
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  19 FEB 2025 09:55
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -788,7 +792,11 @@ Package epstopdf Info: Source file: <portada/tecnm.eps>
 nverted-to.pdf portada/tecnm.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
+<<<<<<< HEAD
 <portada/tecnm-eps-converted-to.pdf, id=70, 83.31125pt x 37.13875pt>
+=======
+<portada/tecnm-eps-converted-to.pdf, id=51, 83.31125pt x 37.13875pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: portada/tecnm-eps-converted-to.pdf Graphic file (type pdf)
 <use portada/tecnm-eps-converted-to.pdf>
 Package pdftex.def Info: portada/tecnm-eps-converted-to.pdf  used on input line
@@ -804,48 +812,83 @@ Package epstopdf Info: Source file: <portada/SEP.eps>
 erted-to.pdf portada/SEP.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
+<<<<<<< HEAD
 <portada/SEP-eps-converted-to.pdf, id=71, 561.09625pt x 173.64874pt>
+=======
+<portada/SEP-eps-converted-to.pdf, id=52, 561.09625pt x 173.64874pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: portada/SEP-eps-converted-to.pdf Graphic file (type pdf)
 <use portada/SEP-eps-converted-to.pdf>
 Package pdftex.def Info: portada/SEP-eps-converted-to.pdf  used on input line 7
 .
 (pdftex.def)             Requested size: 137.90215pt x 42.67912pt.
+<<<<<<< HEAD
 <portada/ith.jpg, id=72, 173.14688pt x 176.15813pt>
+=======
+<portada/ith.jpg, id=53, 173.14688pt x 176.15813pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: portada/ith.jpg Graphic file (type jpg)
 <use portada/ith.jpg>
 Package pdftex.def Info: portada/ith.jpg  used on input line 8.
 (pdftex.def)             Requested size: 55.93124pt x 56.9055pt.
+<<<<<<< HEAD
 <portada/perfil1.jpg, id=73, 1300.86pt x 1589.94pt>
 File: portada/perfil1.jpg Graphic file (type jpg)
 <use portada/perfil1.jpg>
 Package pdftex.def Info: portada/perfil1.jpg  used on input line 55.
 (pdftex.def)             Requested size: 69.83054pt x 85.35826pt.
+=======
+<img/ais.jpeg, id=54, 1084.05pt x 1084.05pt>
+File: img/ais.jpeg Graphic file (type jpg)
+<use img/ais.jpeg>
+Package pdftex.def Info: img/ais.jpeg  used on input line 55.
+(pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
 6.
 
 (C:\Users\Patsy Ceballos\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+<<<<<<< HEAD
 <img/ale.jpeg, id=74, 1084.05pt x 1084.05pt>
+=======
+<img/ale.jpeg, id=55, 1084.05pt x 1084.05pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: img/ale.jpeg Graphic file (type jpg)
 <use img/ale.jpeg>
 Package pdftex.def Info: img/ale.jpeg  used on input line 59.
 (pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
+<<<<<<< HEAD
 <img/patsy.jpeg, id=75, 1084.05pt x 1084.05pt>
+=======
+<img/patsy.jpeg, id=56, 1084.05pt x 1084.05pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: img/patsy.jpeg Graphic file (type jpg)
 <use img/patsy.jpeg>
 Package pdftex.def Info: img/patsy.jpeg  used on input line 63.
 (pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
+<<<<<<< HEAD
 <img/lou.jpeg, id=76, 1084.05pt x 1084.05pt>
+=======
+<img/lou.jpeg, id=57, 1084.05pt x 1084.05pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: img/lou.jpeg Graphic file (type jpg)
 <use img/lou.jpeg>
 Package pdftex.def Info: img/lou.jpeg  used on input line 67.
 (pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
 
 
+<<<<<<< HEAD
 [0 <./portada/tecnm-eps-converted-to.pdf> <./portada/SEP-eps-converted-to.pdf> 
 <./portada/ith.jpg> <./portada/perfil1.jpg> <./img/ale.jpeg> <./img/patsy.jpeg>
  <./img/lou.jpeg>]) (reporte.toc
+=======
+[0{C:/Users/aleja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/aleja/pr
+ogramas/mitex/fonts/enc/dvips/lm/lm-ec.enc} <./portada/tecnm-eps-converted-to.p
+df> <./portada/SEP-eps-converted-to.pdf> <./portada/ith.jpg> <./img/ais.jpeg> <
+./img/ale.jpeg> <./img/patsy.jpeg> <./img/lou.jpeg>]) (reporte.toc
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -856,6 +899,7 @@ LaTeX Info: Redefining \% on input line 1.
 (secciones/imagenes.tex
 
 
+<<<<<<< HEAD
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -863,12 +907,19 @@ been already used, duplicate ignored
 l.5 
      [1]
 <img/Encoder.jpeg, id=118, 612.2875pt x 673.51625pt>
+=======
+[1] (secciones/introduccion.tex) (secciones/imagenes.tex
+
+[2]
+<img/Encoder.jpeg, id=96, 612.2875pt x 673.51625pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: img/Encoder.jpeg Graphic file (type jpg)
 <use img/Encoder.jpeg>
 Package pdftex.def Info: img/Encoder.jpeg  used on input line 31.
 (pdftex.def)             Requested size: 412.80157pt x 454.07973pt.
 
 
+<<<<<<< HEAD
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
@@ -877,28 +928,45 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3 <./img/Encoder.jpeg>]
 <img/lvdt.jpeg, id=136, 321.2pt x 292.09125pt>
+=======
+[3 <./img/Encoder.jpeg>]
+<img/lvdt.jpeg, id=105, 321.2pt x 292.09125pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: img/lvdt.jpeg Graphic file (type jpg)
 <use img/lvdt.jpeg>
-Package pdftex.def Info: img/lvdt.jpeg  used on input line 55.
+Package pdftex.def Info: img/lvdt.jpeg  used on input line 54.
 (pdftex.def)             Requested size: 206.39685pt x 187.69542pt.
+<<<<<<< HEAD
 <img/lvdt2.jpeg, id=137, 321.2pt x 116.435pt>
+=======
+<img/lvdt2.jpeg, id=106, 321.2pt x 116.435pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: img/lvdt2.jpeg Graphic file (type jpg)
 <use img/lvdt2.jpeg>
-Package pdftex.def Info: img/lvdt2.jpeg  used on input line 67.
+Package pdftex.def Info: img/lvdt2.jpeg  used on input line 66.
 (pdftex.def)             Requested size: 309.60315pt x 112.2347pt.
 
 
+<<<<<<< HEAD
 [4 <./img/lvdt.jpeg> <./img/lvdt2.jpeg>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
 6.
 
 (C:\Users\Patsy Ceballos\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+=======
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[4 <./img/lvdt.jpeg>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+5.
+ (D:\aleja\programas\mitex\tex/latex/lm\ts1lmr.fd
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (81.9989pt too wide) in paragraph at lines 85--86
-[][] 
- []
 
+<<<<<<< HEAD
 
 Overfull \hbox (465.01495pt too wide) in paragraph at lines 108--109
 [][] 
@@ -920,10 +988,15 @@ Overfull \hbox (1111.81175pt too wide) in paragraph at lines 113--114
  []
 
 <img/resolver.jpeg, id=144, 321.2pt x 213.79875pt>
+=======
+[5{D:/aleja/programas/mitex/fonts/enc/dvips/lm/lm-ts1.enc} <./img/lvdt2.jpeg>]
+<img/resolver.jpeg, id=124, 321.2pt x 213.79875pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: img/resolver.jpeg Graphic file (type jpg)
 <use img/resolver.jpeg>
-Package pdftex.def Info: img/resolver.jpeg  used on input line 121.
+Package pdftex.def Info: img/resolver.jpeg  used on input line 119.
 (pdftex.def)             Requested size: 206.39685pt x 137.38531pt.
+<<<<<<< HEAD
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -932,10 +1005,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [5{C:/Users/Patsy Ceballos/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-
 ts1.enc}]
 <img/tacometro.jpeg, id=153, 321.2pt x 261.97874pt>
+=======
+<img/tacometro.jpeg, id=126, 321.2pt x 261.97874pt>
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 File: img/tacometro.jpeg Graphic file (type jpg)
 <use img/tacometro.jpeg>
-Package pdftex.def Info: img/tacometro.jpeg  used on input line 142.
+Package pdftex.def Info: img/tacometro.jpeg  used on input line 140.
 (pdftex.def)             Requested size: 206.39685pt x 168.34538pt.
+<<<<<<< HEAD
 <img/sensorhall.jpeg, id=154, 321.2pt x 240.9pt>
 File: img/sensorhall.jpeg Graphic file (type jpg)
 <use img/sensorhall.jpeg>
@@ -965,12 +1042,43 @@ File: img/piezoelectrico2.jpeg Graphic file (type jpg)
 <use img/piezoelectrico2.jpeg>
 Package pdftex.def Info: img/piezoelectrico2.jpeg  used on input line 214.
 (pdftex.def)             Requested size: 206.39685pt x 206.41716pt.
+=======
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<img/sensorhall.jpeg, id=128, 321.2pt x 240.9pt>
+File: img/sensorhall.jpeg Graphic file (type jpg)
+<use img/sensorhall.jpeg>
+Package pdftex.def Info: img/sensorhall.jpeg  used on input line 154.
+(pdftex.def)             Requested size: 206.39685pt x 154.80035pt.
+
+
+[6 <./img/resolver.jpeg>]
+
+[7 <./img/tacometro.jpeg> <./img/sensorhall.jpeg>]
+<img/galgas.jpeg, id=148, 214.8025pt x 146.5475pt>
+File: img/galgas.jpeg Graphic file (type jpg)
+<use img/galgas.jpeg>
+Package pdftex.def Info: img/galgas.jpeg  used on input line 188.
+(pdftex.def)             Requested size: 206.39685pt x 140.8159pt.
+
+
+[8 <./img/galgas.jpeg>]
+<img/piezoelectrico1.jpeg, id=158, 149.05687pt x 129.48375pt>
+File: img/piezoelectrico1.jpeg Graphic file (type jpg)
+<use img/piezoelectrico1.jpeg>
+Package pdftex.def Info: img/piezoelectrico1.jpeg  used on input line 207.
+(pdftex.def)             Requested size: 206.39685pt x 179.30417pt.
+<img/piezoelectrico2.jpeg, id=159, 124.96687pt x 124.96687pt>
+File: img/piezoelectrico2.jpeg Graphic file (type jpg)
+<use img/piezoelectrico2.jpeg>
+Package pdftex.def Info: img/piezoelectrico2.jpeg  used on input line 212.
+(pdftex.def)             Requested size: 206.39685pt x 206.41716pt.
 ) (secciones/tablas.tex
 
+<<<<<<< HEAD
 [8{C:/Users/Patsy Ceballos/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-
 rm.enc}{C:/Users/Patsy Ceballos/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/l
 m/lm-mathsy.enc}{C:/Users/Patsy Ceballos/AppData/Local/Programs/MiKTeX/fonts/en
@@ -1104,13 +1212,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) (secciones/conclusion.tex
 
 [15 <./img/acelerometro.jpg> <./img/magnetometro.jpg>]) (reporte.bbl
+=======
+[9{D:/aleja/programas/mitex/fonts/enc/dvips/lm/lm-rm.enc}{D:/aleja/programas/mi
+tex/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/aleja/programas/mitex/fonts/enc/dvips/
+lm/lm-mathit.enc} <./img/piezoelectrico1.jpeg> <./img/piezoelectrico2.jpeg>]
+
+[10]
+
+[11]) (secciones/ecuaciones.tex) (secciones/conclusion.tex) (reporte.bbl
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 27.
+(Font)              <9> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
+<<<<<<< HEAD
 (Font)              <5> on input line 27.
 )
 
 [16 <./img/LiDAR.jpg>] (reporte.aux
+=======
+(Font)              <5> on input line 28.
+
+
+[12])
+
+[13] (reporte.aux
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1118,6 +1244,7 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+<<<<<<< HEAD
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1161,4 +1288,31 @@ PDF statistics:
  350 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
  266 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Package rerunfilecheck Info: File `reporte.out' has not changed.
+(rerunfilecheck)             Checksum: 7D1C44A2BE7DE4CCE1AD54440C31526E;1669.
+ ) 
+Here is how much of TeX's memory you used:
+ 15094 strings out of 473530
+ 243703 string characters out of 5724414
+ 652910 words of memory out of 5000000
+ 37996 multiletter control sequences out of 15000+600000
+ 740002 words of font info for 140 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,16n,79p,819b,645s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/aleja/programas/mitex/fonts/type1/public/lm/lmbx10.pfb><D:/aleja/programa
+s/mitex/fonts/type1/public/lm/lmbx12.pfb><D:/aleja/programas/mitex/fonts/type1/
+public/lm/lmcsc10.pfb><D:/aleja/programas/mitex/fonts/type1/public/lm/lmmi12.pf
+b><D:/aleja/programas/mitex/fonts/type1/public/lm/lmr10.pfb><D:/aleja/programas
+/mitex/fonts/type1/public/lm/lmr12.pfb><D:/aleja/programas/mitex/fonts/type1/pu
+blic/lm/lmr8.pfb><D:/aleja/programas/mitex/fonts/type1/public/lm/lmr9.pfb><D:/a
+leja/programas/mitex/fonts/type1/public/lm/lmri12.pfb><D:/aleja/programas/mitex
+/fonts/type1/public/lm/lmsy10.pfb><D:/aleja/programas/mitex/fonts/type1/public/
+lm/lmtt12.pfb>
+Output written on reporte.pdf (14 pages, 778203 bytes).
+PDF statistics:
+ 289 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> e7bfa83aadada6a73db2ecb34b46040d698b14de
 
