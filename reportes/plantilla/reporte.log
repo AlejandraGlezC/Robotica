@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  18 FEB 2025 07:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  19 FEB 2025 09:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -838,45 +838,16 @@ lm/lm-mathit.enc} <./img/galgas.jpeg>]
 
 [8 <./img/piezoelectrico1.jpeg> <./img/piezoelectrico2.jpeg>]
 
-[9]
-\c@actividad=\count321
-
-Overfull \hbox (181.79129pt too wide) in alignment at lines 105--110
- [] [] [] 
- []
-
-
-Overfull \hbox (181.79129pt too wide) in alignment at lines 110--115
- [] [] [] 
- []
-
-
-Overfull \hbox (181.79129pt too wide) in alignment at lines 115--118
- [] [] [] 
- []
-
-
-Overfull \hbox (181.79129pt too wide) in alignment at lines 118--120
- [] [] [] 
- []
-
-
-Overfull \hbox (181.79129pt too wide) in alignment at lines 120--132
- [] [] [] 
- []
-
-) (secciones/ecuaciones.tex
+[9]) (secciones/ecuaciones.tex
 
 [10]) (secciones/conclusion.tex) (reporte.bbl
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 28.
+)
 
-
-[11])
-
-[12] (reporte.aux
+[11] (reporte.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -888,10 +859,10 @@ Package rerunfilecheck Info: File `reporte.out' has not changed.
 (rerunfilecheck)             Checksum: 4FF10797EB2014B5188A720A3C4A8301;1871.
  ) 
 Here is how much of TeX's memory you used:
- 15111 strings out of 473530
- 244034 string characters out of 5724414
- 657064 words of memory out of 5000000
- 38011 multiletter control sequences out of 15000+600000
+ 15099 strings out of 473530
+ 243843 string characters out of 5724414
+ 654064 words of memory out of 5000000
+ 38001 multiletter control sequences out of 15000+600000
  740002 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,819b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -904,9 +875,9 @@ blic/lm/lmr8.pfb><D:/aleja/programas/mitex/fonts/type1/public/lm/lmr9.pfb><D:/a
 leja/programas/mitex/fonts/type1/public/lm/lmri12.pfb><D:/aleja/programas/mitex
 /fonts/type1/public/lm/lmsy10.pfb><D:/aleja/programas/mitex/fonts/type1/public/
 lm/lmtt12.pfb>
-Output written on reporte.pdf (13 pages, 686559 bytes).
+Output written on reporte.pdf (12 pages, 684629 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
