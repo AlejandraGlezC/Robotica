@@ -24,13 +24,13 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 \end{itemize}
 
 
-\begin{figure}[h]
+\begin{figure}
 	\centering
-	\subfloat[Encoder]{%
-		\includegraphics[width=0.8\textwidth]{Encoder.jpeg}%
-		\label{fig:encoder}
-	}
+	\includegraphics[width=0.7\linewidth]{img/Encoder}
+	\caption{Encoder}
+	\label{fig:encoder}
 \end{figure}
+
 
 \vspace{15cm}
 
@@ -50,8 +50,9 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[LVDT]{%
+		{%
 			\includegraphics[width=0.4\textwidth]{lvdt.jpeg}%
+			\caption{LVDT}
 			\label{fig:lvdt}
 		}
 	\end{figure}
@@ -62,8 +63,9 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[LVDT]{%
+		{%
 			\includegraphics[width=0.6\textwidth]{lvdt2.jpeg}%
+			\caption{LVDT}
 			\label{fig:lvdt2}
 		}
 	\end{figure}
@@ -113,12 +115,12 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 		\item Los resolvers no son susceptibles a la suciedad, aceite o ambientes calientes ya que los circuitos electrónicos están en otros dispositivos. Dispositivos como los encoders son más susceptibles a estas condiciones. Por eso, los resolvers han sido el dispositivo de realimentación escogido por muchos fabricantes.
 	\end{itemize}
 \end{itemize}
-	\begin{figure}[h]
+
+\begin{figure}
 	\centering
-	\subfloat[Resolver]{%
-		\includegraphics[width=0.4\textwidth]{resolver.jpeg}%
-		\label{fig:resolver}
-	}
+	\includegraphics[width=0.4\linewidth]{img/resolver}
+	\caption{Resólver}
+	\label{fig:resolver}
 \end{figure}
 
 
@@ -138,13 +140,22 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 	\item \textbf{¿Qué hacen?} Esencialmente, los tacómetros miden la velocidad de rotación de un elemento, utilizando el principio de que “el voltaje producido es proporcional al índice del acoplamiento inductivo”, por lo que el conductor (una bobina) se sujeta al elemento rotativo que gira en un campo magnético (estator), para que así, conforme se incremente la velocidad del eje, también aumente el voltaje producido en las terminales de las bobinas, pudiéndola medir directamente. 	\cite{BFMX_SensoresInternosRobot} 		
 \end{itemize}
 
-	\begin{figure}[h]
+\begin{figure}[h]
 	\centering
-	\subfloat[Tacometro]{%
+	{%
 		\includegraphics[width=0.4\textwidth]{tacometro.jpeg}%
+		\caption{Tacometro}
 		\label{fig:tcmtro}
 	}
 \end{figure}
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.4\linewidth]{img/tacometro}
+%	\caption{Tacometro}
+%	\label{fig:tacometro}
+%\end{figure}
+
 
 \vspace{10cm}
 
@@ -152,14 +163,21 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 \subsection*{Sensor de efecto Hall}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Otro dispositivo de medición de velocidad es el sensor de efecto Hall, cuyo principio se describe a continuación. Si una pieza plana de material conductivo llamada chip Hall se sujeta a una diferencia de potencial en sus dos lados opuestos, entonces el voltaje que se genera a través de las caras perpendiculares es cero. Pero si un campo magnético se induce en ángulos rectos al conductor, el voltaje se genera en las otras dos caras perpendiculares. Entre más alto sea el valor de campo, más lo será el nivel de voltaje. Si se utiliza un imán anular, el voltaje producido será proporcional a la velocidad de rotación del imán. \cite{TE_Connectivity_Sensor}
-
 \end{itemize}
 
-	\begin{figure}[h]
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.4\linewidth]{img/sensorhall}
+%	\caption{Sensor de efecto Hall}
+%	\label{fig:sensorhall}
+%\end{figure}
+
+\begin{figure}[h]
 	\centering
-	\subfloat[Sensor de efecto Hall]{%
-		\includegraphics[width=0.4\textwidth]{sensorhall.jpeg}%
-		\label{fig:sh}
+	{%
+		\includegraphics[width=0.4\linewidth]{img/sensorhall}%
+		\caption{Sensor de efecto Hall}
+		\label{fig:sensorhall}
 	}
 \end{figure}
 
@@ -196,12 +214,19 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 
 \begin{figure}[h]
 	\centering
-	\subfloat[Galgas extensiometricas]{%
-		\includegraphics[width=0.4\textwidth]{galgas.jpeg}%
+	{%
+		\includegraphics[width=0.4\linewidth]{img/galgas}
+		\caption{Galgas extensiométricas.}
 		\label{fig:galgas}
 	}
 \end{figure}
 
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.4\linewidth]{img/galgas}
+%	\caption{Galgas extensiométricas.}
+%	\label{fig:galgas}
+%\end{figure}
 
 \addcontentsline{toc}{subsubsection}{Sensor piezo electrico}
 	\subsection*{Sensor piezoeléctrico}
