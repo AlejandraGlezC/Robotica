@@ -96,4 +96,18 @@
   \url{https://i0.wp.com/www.ingmecafenix.com/wp-content/uploads/2018/07/Sensor-piezoelectrico.webp?resize=1366%2C768&ssl=1}
 \BIBentrySTDinterwordspacing
 
+\bibitem{universalrobots_sensores_robótica}
+\BIBentryALTinterwordspacing
+{Universal Robots}. (2025) Sensores en robótica: cuáles utilizar en sus
+  aplicaciones. Consultado el 22 de febrero de 2025. [Online]. Available:
+  \url{https://www.universal-robots.com/mx/blog/sensores-en-rob%C3%B3tica-cu%C3%A1les-utilizar-en-sus-aplicaciones/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{robotnik_sensores_2023}
+\BIBentryALTinterwordspacing
+{Robotnik}. (2023) Tipos de sensores en robótica móvil. Consultado el 22 de
+  febrero de 2025. [Online]. Available:
+  \url{https://robotnik.eu/es/tipos-de-sensores-en-robotica-movil/}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
