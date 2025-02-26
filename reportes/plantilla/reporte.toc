@@ -27,7 +27,7 @@
 \contentsline {subsubsection}{Sensores de proximidad}{11}{section*.34}%
 \contentsline {subsubsection}{Sensores de efecto Hall}{12}{figure.caption.36}%
 \contentsline {subsubsection}{Sensores de microondas}{12}{figure.caption.38}%
-\contentsline {subsubsection}{Sensores ultrasónicos}{13}{figure.caption.40}%
+\contentsline {subsubsection}{Sensores ultrasónicos}{12}{figure.caption.40}%
 \contentsline {subsubsection}{Sensores láser}{13}{figure.caption.42}%
 \contentsline {subsubsection}{Sensores de visión}{13}{figure.caption.44}%
 \contentsline {section}{\numberline {V}Otros sensores}{14}{section.5}%
