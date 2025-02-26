@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.17)  26 FEB 2025 15:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.17)  26 FEB 2025 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -926,10 +926,10 @@ Package pdftex.def Info: img/sensor neumatico.jpg  used on input line 35.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/sensor piezoelectrico.jpg, id=305, 501.875pt x 501.875pt>
+<img/sensor piezoelectrico.jpg, id=306, 501.875pt x 501.875pt>
 File: img/sensor piezoelectrico.jpg Graphic file (type jpg)
 <use img/sensor piezoelectrico.jpg>
-Package pdftex.def Info: img/sensor piezoelectrico.jpg  used on input line 52.
+Package pdftex.def Info: img/sensor piezoelectrico.jpg  used on input line 53.
 (pdftex.def)             Requested size: 103.19843pt x 103.199pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -937,36 +937,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 [10 <./img/sensor de limite.jpg>]
-<img/transductor de presion.jpg, id=314, 451.6875pt x 451.6875pt>
+<img/transductor de presion.jpg, id=316, 451.6875pt x 451.6875pt>
 File: img/transductor de presion.jpg Graphic file (type jpg)
 <use img/transductor de presion.jpg>
-Package pdftex.def Info: img/transductor de presion.jpg  used on input line 70.
+Package pdftex.def Info: img/transductor de presion.jpg  used on input line 71.
 
 (pdftex.def)             Requested size: 103.19843pt x 103.19672pt.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 77.
+(hyperref)                be the same. Added a new anchor on input line 78.
 
 
 
 [11 <./img/sensor neumatico.jpg> <./img/sensor piezoelectrico.jpg> <./img/trans
 ductor de presion.jpg>]
-<img/sensor de proximidad.jpg, id=325, 361.35pt x 361.35pt>
+<img/sensor de proximidad.jpg, id=327, 361.35pt x 361.35pt>
 File: img/sensor de proximidad.jpg Graphic file (type jpg)
 <use img/sensor de proximidad.jpg>
-Package pdftex.def Info: img/sensor de proximidad.jpg  used on input line 97.
+Package pdftex.def Info: img/sensor de proximidad.jpg  used on input line 98.
 (pdftex.def)             Requested size: 154.80157pt x 154.79852pt.
-<img/sensor de efecto hall.jpg, id=326, 803.0pt x 803.0pt>
+<img/sensor de efecto hall.jpg, id=329, 803.0pt x 803.0pt>
 File: img/sensor de efecto hall.jpg Graphic file (type jpg)
 <use img/sensor de efecto hall.jpg>
-Package pdftex.def Info: img/sensor de efecto hall.jpg  used on input line 114.
+Package pdftex.def Info: img/sensor de efecto hall.jpg  used on input line 116.
 
 (pdftex.def)             Requested size: 103.19843pt x 103.19289pt.
-<img/sensor de microondas.jpg, id=327, 1606.0pt x 1606.0pt>
+<img/sensor de microondas.jpg, id=330, 1606.0pt x 1606.0pt>
 File: img/sensor de microondas.jpg Graphic file (type jpg)
 <use img/sensor de microondas.jpg>
-Package pdftex.def Info: img/sensor de microondas.jpg  used on input line 131.
+Package pdftex.def Info: img/sensor de microondas.jpg  used on input line 133.
 (pdftex.def)             Requested size: 154.80157pt x 154.80159pt.
 
 
@@ -975,20 +975,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 [12 <./img/sensor de proximidad.jpg> <./img/sensor de efecto hall.jpg>]
-
-LaTeX Warning: Citation `makeblock_sensores_2025' on page 13 undefined on input
- line 145.
-
-<img/sensor ultrasonico.jpg, id=336, 702.625pt x 702.625pt>
+<img/sensor ultrasonico.jpg, id=340, 702.625pt x 702.625pt>
 File: img/sensor ultrasonico.jpg Graphic file (type jpg)
 <use img/sensor ultrasonico.jpg>
-Package pdftex.def Info: img/sensor ultrasonico.jpg  used on input line 149.
+Package pdftex.def Info: img/sensor ultrasonico.jpg  used on input line 151.
 (pdftex.def)             Requested size: 154.80157pt x 154.80312pt.
-<img/sensor laser.jpg, id=337, 682.55pt x 626.34pt>
+<img/sensor laser.jpg, id=341, 682.55pt x 626.34pt>
 File: img/sensor laser.jpg Graphic file (type jpg)
 <use img/sensor laser.jpg>
-Package pdftex.def Info: img/sensor laser.jpg  used on input line 166.
+Package pdftex.def Info: img/sensor laser.jpg  used on input line 168.
 (pdftex.def)             Requested size: 154.80157pt x 142.04816pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1004,7 +1001,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 3.
 
-<img/giroscopio.jpg, id=346, 84.315pt x 84.315pt>
+<img/giroscopio.jpg, id=352, 84.315pt x 84.315pt>
 File: img/giroscopio.jpg Graphic file (type jpg)
 <use img/giroscopio.jpg>
 Package pdftex.def Info: img/giroscopio.jpg  used on input line 19.
@@ -1012,23 +1009,23 @@ Package pdftex.def Info: img/giroscopio.jpg  used on input line 19.
 
 
 [14 <./img/sensor laser.jpg> <./img/giroscopio.jpg>]
-<img/acelerometro.jpg, id=355, 602.25pt x 602.25pt>
+<img/acelerometro.jpg, id=361, 602.25pt x 602.25pt>
 File: img/acelerometro.jpg Graphic file (type jpg)
 <use img/acelerometro.jpg>
 Package pdftex.def Info: img/acelerometro.jpg  used on input line 40.
 (pdftex.def)             Requested size: 154.80157pt x 154.79852pt.
-<img/magnetometro.jpg, id=356, 258.9675pt x 258.9675pt>
+<img/magnetometro.jpg, id=363, 258.9675pt x 258.9675pt>
 File: img/magnetometro.jpg Graphic file (type jpg)
 <use img/magnetometro.jpg>
-Package pdftex.def Info: img/magnetometro.jpg  used on input line 59.
+Package pdftex.def Info: img/magnetometro.jpg  used on input line 60.
 (pdftex.def)             Requested size: 154.80157pt x 154.8087pt.
 
 
 [15 <./img/acelerometro.jpg> <./img/magnetometro.jpg>]
-<img/LiDAR.jpg, id=362, 451.6875pt x 451.6875pt>
+<img/LiDAR.jpg, id=370, 451.6875pt x 451.6875pt>
 File: img/LiDAR.jpg Graphic file (type jpg)
 <use img/LiDAR.jpg>
-Package pdftex.def Info: img/LiDAR.jpg  used on input line 79.
+Package pdftex.def Info: img/LiDAR.jpg  used on input line 81.
 (pdftex.def)             Requested size: 154.80157pt x 154.8054pt.
 )
 (secciones/conclusion.tex) (reporte.bbl
@@ -1036,9 +1033,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 28.
-)
 
-[16 <./img/LiDAR.jpg>] (reporte.aux
+
+[16 <./img/LiDAR.jpg>])
+
+[17] (reporte.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1046,18 +1045,14 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `reporte.out' has not changed.
 (rerunfilecheck)             Checksum: 397EFC6E0B4B65248A91F92189D392B0;5659.
  ) 
 Here is how much of TeX's memory you used:
- 15361 strings out of 473530
- 256386 string characters out of 5710402
- 658683 words of memory out of 5000000
- 38234 multiletter control sequences out of 15000+600000
+ 15369 strings out of 473530
+ 256561 string characters out of 5710402
+ 659818 words of memory out of 5000000
+ 38238 multiletter control sequences out of 15000+600000
  740002 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,819b,645s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1074,9 +1069,9 @@ Patsy Ceballos/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><
 C:/Users/Patsy Ceballos/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lms
 y10.pfb><C:/Users/Patsy Ceballos/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/lm/lmtt12.pfb>
-Output written on reporte.pdf (17 pages, 1173393 bytes).
+Output written on reporte.pdf (18 pages, 1177536 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
+ 491 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
  442 words of extra memory for PDF output out of 10000 (max. 10000000)
 
