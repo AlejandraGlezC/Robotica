@@ -125,6 +125,13 @@ E.~J. Carletti, ``Sensores – conceptos generales – descripción y
   \url{https://makeblock.com.ar/tipos-de-sensores-robotica-ppt/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{cognex_vision_sensor}
+\BIBentryALTinterwordspacing
+C.~Corporation, ``How do vision sensors work?'' 2024, accedido el 27 de febrero
+  de 2025. [Online]. Available:
+  \url{https://www.cognex.com/es-mx/blogs/machine-vision/how-do-vision-sensors-work}
+\BIBentrySTDinterwordspacing
+
 \bibitem{yellowscan_lidar_2025}
 \BIBentryALTinterwordspacing
 {YellowScan}, ``¿cómo funciona el lidar?'' 2025, consultado el 22 de febrero
