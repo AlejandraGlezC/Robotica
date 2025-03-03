@@ -3,6 +3,7 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 
 \subsection{Sensores de posición} Los sensores de posición miden la posición de cada articulación, es decir, el ángulo de articulación de un robot. A partir de dichos ángulos puede encontrarse la configuración del ejecutor final, y ubicar su posición y orientación por medio de la cinemática directa. A continuación se explican los diferentes sensores de posición.
 
+\addcontentsline{toc}{subsubsection}{Encoder incremental}
 \subsection*{Encoder incremental} El encoder es un dispositivo óptico digital que convierte el movimiento en una secuencia de pulsos digitales. Mediante el conteo de un solo bit o la decodificación de un conjunto de bits, los pulsos pueden convertirse en medidas relativas o absolutas. De este modo, los encóders son de tipo incremental o absoluto. Además, cada tipo puede ser lineal y rotatorio a su vez.
 
 \begin{itemize}
@@ -14,7 +15,7 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 	
 \end{itemize}
 
-
+\addcontentsline{toc}{subsubsection}{Encoder absoluto}
 \subsection*{Encoder absoluto}
 \begin{itemize}
 	\item \textbf{Encoder lineal absoluto: } Similar al incremental, pero proporciona un valor absoluto de la distancia en cualquier momento, evitando pérdida de pulsos a altas velocidades. Su salida es digital y utiliza una escala con secuencias de tiras opacas y transparentes que representan números binarios, permitiendo determinar la posición exacta.
@@ -23,23 +24,24 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 \end{itemize}
 
 
-\begin{figure}[h]
+\begin{figure}
 	\centering
-	\subfloat[Encoder]{%
-		\includegraphics[width=0.8\textwidth]{Encoder.jpeg}%
-		\label{fig:encoder}
-	}
+	\includegraphics[width=0.7\linewidth]{img/Encoder}
+	\caption{Encoder}
+	\label{fig:encoder}
 \end{figure}
+
 
 \vspace{15cm}
 
+\addcontentsline{toc}{subsubsection}{Potenciometro}
 \subsection*{Potenciometro}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Es un dispositivo de resistencia variable que expresa desplazamientos lineales o angulares en términos de voltaje.
 	\item \textbf{Principio de funcionamiento:} Consiste en una clavija deslizante que hace contacto con un elemento resistivo; conforme se mueve este punto de contacto, la resistencia entre el contacto deslizante y las conexiones de los extremos del dispositivo cambia en proporción al desplazamiento, x y  para potenciómetros lineales y angulares, respectivamente.
 \end{itemize}	
 
-
+\addcontentsline{toc}{subsubsection}{LVDT}
 \subsection*{Sensor LVDT}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Los LVDT (transformadores diferenciales variables lineales) son sensores de posición lineal. Se utilizan para medir el desplazamiento lineal y la posición en distancias relativamente cortas. En la actualidad, existen LVDT en el mercado que pueden medir movimientos tan pequeños como varias millonésimas de cm (micro pulgadas) o incluso hasta aproximadamente 0,7 metros (~ 27 pulgadas) en el otro extremo. \cite{Dewesoft_LVDT} 
@@ -48,8 +50,9 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[LVDT]{%
+		{%
 			\includegraphics[width=0.4\textwidth]{lvdt.jpeg}%
+			\caption{LVDT \cite {lvdt_sensor_image}}
 			\label{fig:lvdt}
 		}
 	\end{figure}
@@ -60,8 +63,9 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[LVDT]{%
+		{%
 			\includegraphics[width=0.6\textwidth]{lvdt2.jpeg}%
+			\caption{LVDT \cite{lvdt_secondary_coils_schematic}}
 			\label{fig:lvdt2}
 		}
 	\end{figure}
@@ -90,7 +94,7 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 	\end{itemize}
 \end{itemize}
 
-
+\addcontentsline{toc}{subsubsection}{Resólver}
 \subsection*{Sensor Resólver}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Un resolver es un sensor analógico de posición rotatoria, que a través de impulsos digitales puede regular la velocidad, la posición o el torque.
@@ -111,58 +115,86 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 		\item Los resolvers no son susceptibles a la suciedad, aceite o ambientes calientes ya que los circuitos electrónicos están en otros dispositivos. Dispositivos como los encoders son más susceptibles a estas condiciones. Por eso, los resolvers han sido el dispositivo de realimentación escogido por muchos fabricantes.
 	\end{itemize}
 \end{itemize}
-	\begin{figure}[h]
+
+\begin{figure}
 	\centering
-	\subfloat[Resolver]{%
-		\includegraphics[width=0.4\textwidth]{resolver.jpeg}%
-		\label{fig:resolver}
-	}
+	\includegraphics[width=0.4\linewidth]{img/resolver}
+	\caption{Resólver \cite{servomotors_adjust_image}}
+	\label{fig:resolver}
 \end{figure}
 
 
 
 \subsection{Sensores de velocidad} Miden la velocidad a partir de cambios de posición en intervalos de tiempo constantes, calculando la razón de cambio respecto al tiempo de los valores de posición, o mediante diferentes principios.
+
+\addcontentsline{toc}{subsubsection}{Sensores de posición}
 \subsection*{Sensores de posición}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Cualquier sensor de posición puede medir velocidad si se usa dentro de ciertos límites de tiempo. Por ejemplo, un encoder incremental calcula la velocidad dividiendo el número de pulsos entre el tiempo. Sin embargo, este método puede aumentar la carga computacional del controlador.
 	
 \end{itemize}
+
+\addcontentsline{toc}{subsubsection}{Tacómetro}
 \subsection*{Tacómetro}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Esencialmente, los tacómetros miden la velocidad de rotación de un elemento, utilizando el principio de que “el voltaje producido es proporcional al índice del acoplamiento inductivo”, por lo que el conductor (una bobina) se sujeta al elemento rotativo que gira en un campo magnético (estator), para que así, conforme se incremente la velocidad del eje, también aumente el voltaje producido en las terminales de las bobinas, pudiéndola medir directamente. 	\cite{BFMX_SensoresInternosRobot} 		
 \end{itemize}
 
-	\begin{figure}[h]
+\begin{figure}[h]
 	\centering
-	\subfloat[Tacometro]{%
+	{%
 		\includegraphics[width=0.4\textwidth]{tacometro.jpeg}%
+		\caption{Tacometro}
 		\label{fig:tcmtro}
 	}
 \end{figure}
 
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.4\linewidth]{img/tacometro}
+%	\caption{Tacometro}
+%	\label{fig:tacometro}
+%\end{figure}
+
+
+\vspace{10cm}
+
+\addcontentsline{toc}{subsubsection}{Sensor de efecto Hall}
 \subsection*{Sensor de efecto Hall}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Otro dispositivo de medición de velocidad es el sensor de efecto Hall, cuyo principio se describe a continuación. Si una pieza plana de material conductivo llamada chip Hall se sujeta a una diferencia de potencial en sus dos lados opuestos, entonces el voltaje que se genera a través de las caras perpendiculares es cero. Pero si un campo magnético se induce en ángulos rectos al conductor, el voltaje se genera en las otras dos caras perpendiculares. Entre más alto sea el valor de campo, más lo será el nivel de voltaje. Si se utiliza un imán anular, el voltaje producido será proporcional a la velocidad de rotación del imán. \cite{TE_Connectivity_Sensor}
-
 \end{itemize}
 
-	\begin{figure}[h]
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.4\linewidth]{img/sensorhall}
+%	\caption{Sensor de efecto Hall}
+%	\label{fig:sensorhall}
+%\end{figure}
+
+\begin{figure}[h]
 	\centering
-	\subfloat[Sensor de efecto Hall]{%
-		\includegraphics[width=0.4\textwidth]{sensorhall.jpeg}%
-		\label{fig:sh}
+	{%
+		\includegraphics[width=0.4\linewidth]{img/sensorhall}%
+		\caption{Sensor de efecto Hall}
+		\label{fig:sensorhall}
 	}
 \end{figure}
 
+
 \subsection{Sensores de aceleración} De manera parecida a las mediciones de velocidad que se dan a partir de la información de los sensores de posición, pueden encontrarse las aceleraciones como la razón de cambio respecto al tiempo de las velocidades obtenidas por los sensores de velocidad o calculado a partir de las informaciones de posición. Pero ésta no es una manera eficiente para calcular la aceleración, puesto que impondrá una carga de trabajo pesada sobre la computadora, lo que puede reducir la velocidad de operación del sistema. Otra forma de medir la aceleración es calculando la fuerza que resulta de multiplicar masa por aceleración. Las fuerzas se miden, por ejemplo, usando galgas extensométricas. 
+
+\addcontentsline{toc}{subsubsection}{Todos los sensores de fuerza}
 \subsection*{Sensores de fuerza} 
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Una balanza de resorte es un ejemplo de un sensor de fuerza en donde se aplica una fuerza, por ejemplo, el peso, al platillo de balanza que causa un desplazamiento, es decir, el resorte se estira. El desplazamiento es entonces una medida de la fuerza. Existen otros tipos de sensores de fuerza, por ejemplo, con base en galgas, utilizando el sensor de efecto Hall, etcétera. 
 \end{itemize}
 \subsection{Sensores de fuerza}
-\subsection*{Galgas extensiométricas}
+
+\addcontentsline{toc}{subsubsection}{Galgas extensometricas}
+\subsection*{Galgas extensométricas}
 \begin{itemize}
-	\item \textbf{¿Qué hacen?} Las galgas extensiométricas son sensores cuya resistencia varía con la fuerza aplicada. Estos sensores convierten la fuerza, presión, tensión, peso, etc, en un cambio de la resistencia eléctrica el cual puede ser medido.
+	\item \textbf{¿Qué hacen?} Las galgas extensométricas son sensores cuya resistencia varía con la fuerza aplicada. Estos sensores convierten la fuerza, presión, tensión, peso, etc, en un cambio de la resistencia eléctrica el cual puede ser medido.
 	\item \textbf{Principio de funcionamiento:} Cuando se aplica una fuerza externa a un objeto estacionario, se produce tensión y estrés sobre él. El estrés se define como las fuerzas internas de resistencia del objeto, y la tensión se define como el desplazamiento y la deformación que se producen.
 	
 	Las galgas extensiométricas son una de las herramientas más importantes en la técnica aplicada de medición eléctrica de magnitudes mecánicas. Como su nombre indica, se utiliza para la medición de tensiones. Se pueden utilizar para medir la expansión y la contracción.
@@ -182,14 +214,21 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 
 \begin{figure}[h]
 	\centering
-	\subfloat[Galgas extensiometricas]{%
-		\includegraphics[width=0.4\textwidth]{galgas.jpeg}%
+	{%
+		\includegraphics[width=0.4\linewidth]{img/galgas}
+		\caption{Galgas extensiométricas.}
 		\label{fig:galgas}
 	}
 \end{figure}
 
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.4\linewidth]{img/galgas}
+%	\caption{Galgas extensiométricas.}
+%	\label{fig:galgas}
+%\end{figure}
 
-
+\addcontentsline{toc}{subsubsection}{Sensor piezo electrico}
 	\subsection*{Sensor piezoeléctrico}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} 
@@ -210,7 +249,7 @@ Los sensores internos se dividen en sensores de posición, de velocidad, de acel
 		\includegraphics[width=0.4\textwidth]{piezoelectrico2.jpeg}%
 		\label{fig:spe2}
 	}
-	\caption{Sensor piezoeléctrico}
+	\caption{Sensor piezoeléctrico \cite{piezoelectric_sensor_parts} \cite{piezoelectric_sensor}}
 	\label{fig:mascotas}
 \end{figure}
 

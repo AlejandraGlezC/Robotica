@@ -2,6 +2,8 @@
 Los sensores externos se dividen en sensores de contacto y sensores sin contacto. 
 \subsection{Sensores de contacto}
 Son aquellos que necesitan tocar físicamente un objeto para detectar su presencia o medir una magnitud.
+
+\addcontentsline{toc}{subsubsection}{Interruptores de límite}
 \subsection*{Interruptores de límite}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Detectan la presencia o posición de un objeto cuando este activa un mecanismo mecánico.
@@ -11,6 +13,14 @@ Son aquellos que necesitan tocar físicamente un objeto para detectar su presenc
 	Sistemas de final de carrera en actuadores.
 	\item \textbf{Ejemplo:} Interruptor de límite tipo microswitch, como los usados en impresoras 3D para el eje Z.
 \end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{img/sensor de limite}
+	\caption{Sensor de Límite}
+	\label{fig:sensor de limite}
+\end{figure}
+
+\addcontentsline{toc}{subsubsection}{Interruptores neumáticos}
 \subsection*{Interruptores neumáticos}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Detectan la presión de aire o vacío en un sistema neumático.
@@ -20,6 +30,14 @@ Son aquellos que necesitan tocar físicamente un objeto para detectar su presenc
 	Sistemas de detección de flujo de aire.
 	\item \textbf{Ejemplo:} Interruptor neumático utilizado en líneas de producción automatizadas.
 \end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.2\linewidth]{img/sensor neumatico}
+	\caption{Sensor Neumático}
+	\label{fig:sensor neumatico}
+\end{figure}
+
+\addcontentsline{toc}{subsubsection}{Sensores piezoelectricos}
 \subsection*{Sensores piezoeléctricos}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Detectan presión, fuerza o vibraciones y las convierten en señales eléctricas.
@@ -28,7 +46,16 @@ Son aquellos que necesitan tocar físicamente un objeto para detectar su presenc
 	Sensores de vibración en maquinaria industrial.
 	Micrófonos y captadores de sonido.
 	\item \textbf{Ejemplo:} Sensores piezoeléctricos usados en guitarras eléctricas para captar sonido.
+	\cite{carletti_sensores_2025}
 \end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.2\linewidth]{img/sensor piezoelectrico}
+	\caption{Sensor Piezoeléctrico}
+	\label{fig:sensor piezoelectrico}
+\end{figure}
+
+\addcontentsline{toc}{subsubsection}{Transductores de presión}
 \subsection*{Transductores de presión}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Miden la presión de un fluido (líquido o gas) y la convierten en una señal eléctrica.
@@ -37,9 +64,18 @@ Son aquellos que necesitan tocar físicamente un objeto para detectar su presenc
 	Control de presión en motores y sistemas de refrigeración.
 	Aplicaciones médicas (como en esfigmomanómetros digitales).
 	\item \textbf{Ejemplo:} Sensor de presión MPX5700 usado en sistemas de control de presión.
+	\cite{universalrobots_sensores_robótica}
 \end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.2\linewidth]{img/transductor de presion}
+	\caption{Transductor de Presión}
+	\label{fig:transductor de presion}
+\end{figure}
 \subsection{Sensores sin contacto}
 Detectan la presencia, distancia o características de un objeto sin tocarlo.
+
+\addcontentsline{toc}{subsubsection}{Sensores de proximidad}
 \subsection*{Sensores de proximidad}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Detectan la presencia de un objeto cercano sin contacto físico.
@@ -54,7 +90,17 @@ Detectan la presencia, distancia o características de un objeto sin tocarlo.
 	Sistemas de seguridad en maquinaria.
 	Sensores de aparcamiento en automóviles.
 	\item \textbf{Ejemplo:} Sensor inductivo LJ12A3-4-Z/BX usado en impresoras 3D.
+	\cite{universalrobots_sensores_robótica}
+	\cite{robotnik_sensores_2023}
 \end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{img/sensor de proximidad}
+	\caption{Sensor de Proximidad}
+	\label{fig:sensor de proximidad}
+\end{figure}
+
+\addcontentsline{toc}{subsubsection}{Sensores de efecto Hall}
 \subsection*{Sensores de efecto Hall}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Detectan la presencia de campos magnéticos.
@@ -63,7 +109,16 @@ Detectan la presencia, distancia o características de un objeto sin tocarlo.
 	Controles de proximidad en robótica.
 	Medición de corriente en circuitos eléctricos.
 	\item \textbf{Ejemplo:} Sensor de efecto Hall A3144 para detectar imanes.
+	\cite{carletti_sensores_2025}
 \end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.2\linewidth]{img/sensor de efecto hall}
+	\caption{Sensor de Efecto Hall}
+	\label{fig:sensor de efecto hall}
+\end{figure}
+
+\addcontentsline{toc}{subsubsection}{Sensores de microondas}
 \subsection*{Sensores de microondas}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Detectan movimiento mediante la emisión y recepción de ondas electromagnéticas de alta frecuencia.
@@ -73,6 +128,14 @@ Detectan la presencia, distancia o características de un objeto sin tocarlo.
 	Sensores de radar en autos autónomos.
 	\item \textbf{Ejemplo:} Sensor de microondas RCWL-0516 usado en sistemas de iluminación automática.
 \end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{img/sensor de microondas}
+	\caption{Sensor de Microondas}
+	\label{fig:sensor de microondas}
+\end{figure}
+
+\addcontentsline{toc}{subsubsection}{Sensores ultrasónicos}
 \subsection*{Sensores ultasónicos}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Capturan imágenes y procesan información visual.
@@ -81,7 +144,16 @@ Detectan la presencia, distancia o características de un objeto sin tocarlo.
 	Reconocimiento facial en seguridad.
 	Navegación de robots autónomos.
 	\item \textbf{Ejemplo:} Cámara Intel RealSense para visión 3D.
+	\cite{makeblock_sensores_2025}
 \end{itemize}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{img/sensor ultrasonico}
+	\caption{Sensor Ultrasónico}
+	\label{fig:sensor ultrasonico}
+\end{figure}
+
+\addcontentsline{toc}{subsubsection}{Sensores láser}
 \subsection*{Sensores láser}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Miden distancias con alta precisión mediante un haz de luz láser.
@@ -89,8 +161,16 @@ Detectan la presencia, distancia o características de un objeto sin tocarlo.
 	\item \textbf{Aplicaciones:} Mapeo 3D en drones y vehículos autónomos.
 	Medición de distancias en topografía.
 	Sensores de seguridad en máquinas industriales.
-	\item \textbf{Ejemplo:} Sensor LiDAR TFmini usado en robots para navegación autónoma.
-\end{itemize}
+	\item \textbf{Ejemplo:} Sensor LiDAR TFmini usado en robots para navegación autónoma.	\cite{makeblock_sensores_2025}
+\end{itemize} 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{img/sensor laser}
+	\caption{Sensor de Láser}
+	\label{fig:sensor laser} 
+\end{figure}
+\vspace{15cm}
+\addcontentsline{toc}{subsubsection}{Sensores de visión}
 \subsection*{Sensores de visión}
 \begin{itemize}
 	\item \textbf{¿Qué hacen?} Detectan movimiento mediante la emisión y recepción de ondas electromagnéticas de alta frecuencia.
@@ -98,6 +178,11 @@ Detectan la presencia, distancia o características de un objeto sin tocarlo.
 	\item \textbf{Aplicaciones:} Sensores de movimiento en alarmas de seguridad.
 	Detección de vehículos en semáforos inteligentes.
 	Sensores de radar en autos autónomos.
-	\item \textbf{Ejemplo:} Sensor de microondas RCWL-0516 usado en sistemas de iluminación automática.
+	\item \textbf{Ejemplo:} Sensor de microondas RCWL-0516 usado en sistemas de iluminación automática.\cite{cognex_vision_sensor}
 \end{itemize}
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{img/sensor de vision}
+	\caption{Sensor de Visión}
+	\label{fig:sensor vision}
+\end{figure}
