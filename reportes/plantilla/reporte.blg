@@ -20,45 +20,45 @@ Warning--empty journal in Omega_GalgasExtensiometricas
 Warning--empty journal in IngMecafenix_SensorPiezoelectrico
 
 Done.
-You've used 11 entries,
+You've used 17 entries,
             4087 wiz_defined-function locations,
-            876 strings with 9277 characters,
-and the built_in function-call counts, 4265 in all, are:
-= -- 353
-> -- 44
+            903 strings with 10282 characters,
+and the built_in function-call counts, 6693 in all, are:
+= -- 567
+> -- 68
 < -- 0
-+ -- 22
-- -- 11
-* -- 191
-:= -- 869
-add.period$ -- 22
-call.type$ -- 11
-change.case$ -- 16
++ -- 34
+- -- 17
+* -- 275
+:= -- 1343
+add.period$ -- 36
+call.type$ -- 17
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 345
-empty$ -- 377
-format.name$ -- 11
-if$ -- 893
+cite$ -- 22
+duplicate$ -- 537
+empty$ -- 595
+format.name$ -- 17
+if$ -- 1421
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 72
-newline$ -- 78
-num.names$ -- 11
-pop$ -- 202
+int.to.str$ -- 17
+missing$ -- 120
+newline$ -- 108
+num.names$ -- 17
+pop$ -- 334
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 323
+skip$ -- 517
 stack$ -- 0
-substring$ -- 21
-swap$ -- 181
+substring$ -- 37
+swap$ -- 297
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 11
+type$ -- 17
 warning$ -- 5
-while$ -- 11
-width$ -- 13
-write$ -- 137
+while$ -- 17
+width$ -- 19
+write$ -- 203
 (There were 5 warnings)
