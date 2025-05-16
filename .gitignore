@@ -24,6 +24,9 @@ build/
 dist/
 install/
 log/
+logs/
+devel/
+.catkin_tools/
 
 # Configuración de Visual Studio Code
 .vscode/
@@ -64,6 +67,9 @@ log/
 *.lof
 *.lot
 *.lol
+*/_minted-Tesis/
+*/build/
+
 
 # Archivos de backup o temporales
 *~
