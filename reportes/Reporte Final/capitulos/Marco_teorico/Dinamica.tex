@@ -1,24 +1,35 @@
 \section{Dinámica} \label{sec:dinamica}
 
-La verdad, no les expliqué mucho sobre esta unidad, pero pueden hablar sobre las ecuaciones que vienen en el powerpoint (el cual subí tarde porque se me corrompió)
+La dinámica en robótica es el estudio del movimiento de un robot considerando las fuerzas y torques que lo causan. A diferencia de la cinemática, que solo se enfoca en las posiciones, velocidades y aceleraciones de las partes del robot, la dinámica toma en cuenta el efecto de la masa, la inercia y las fuerzas externas, como la gravedad o el rozamiento, para describir cómo se mueve realmente un robot en el mundo físico.
 
-Hablen sobre el modelo dinámico estandar de un robot, la matriz de masa o inercia, la matriz de coriolis y el vector de gravedad. 
+
+Comprender la dinámica es fundamental para diseñar sistemas de control precisos y eficientes, ya que permite anticipar cómo se va a comportar el robot ante ciertas órdenes de movimiento. También es clave para evitar vibraciones, colisiones o movimientos bruscos, sobre todo cuando el robot trabaja con cargas o se mueve a altas velocidades.
+
 
 \subsection{Matriz de masa o inercia}
-Expliquen cómo el vector de masa o inercia define la aceleración máxima.
+La matriz de masa (también conocida como matriz de inercia) representa cómo se distribuye la masa del robot en función de sus articulaciones y cómo esta masa afecta al movimiento del sistema. En términos simples, esta matriz describe la resistencia que tiene el robot a acelerar en cada una de sus articulaciones dependiendo de su configuración. Es una matriz cuadrada y simétrica que cambia con la posición de los eslabones del robot, ya que la distribución de masa varía conforme se mueve. Este término es crucial en las ecuaciones dinámicas del robot, ya que indica cuánta fuerza o torque se necesita para lograr una aceleración deseada. Cuanto mayor sea el valor en la matriz, mayor será la fuerza requerida. En robots con muchos grados de libertad o brazos largos, la matriz de inercia puede tener una gran influencia en la estabilidad y respuesta del movimiento.
+
 
 \subsection{Matriz de coriolis}
+La matriz de Coriolis contiene términos que representan las fuerzas ficticias que aparecen debido al movimiento relativo entre diferentes partes del robot. Estas fuerzas se generan principalmente cuando las articulaciones del robot se mueven con velocidades angulares altas o cuando se combinan movimientos simultáneos en distintas direcciones. La matriz de Coriolis se utiliza para calcular los torques necesarios para compensar estos efectos, evitando desviaciones o inestabilidades en el movimiento del robot. En la formulación dinámica, estos términos dependen de las velocidades articulares y de la configuración del sistema, y se suman a la ecuación junto con la matriz de masa. Aunque pueden parecer pequeños comparados con otros términos, se vuelven importantes en movimientos rápidos o precisos, como los que se encuentran en aplicaciones industriales o quirúrgicas.
 
 \subsection{Vector de gravedad}
 
-Expliquen por qué el vector de gravedad en su valor máximo (cuando el robot está extendido horizontalmente) debe ser contrarrestado con la fuerza de cada motor
+El vector de gravedad representa los efectos del peso del robot en cada una de sus articulaciones, dependiendo de su orientación en el espacio. Este vector indica cuánto torque necesita aplicar cada motor para mantener el robot en una posición estática frente a la acción de la gravedad. Por ejemplo, si un brazo robótico está estirado hacia adelante, el motor del hombro necesita aplicar un torque constante para evitar que el brazo caiga.
 
+Es importante contrarrestar el valor máximo del vector de gravedad con la fuerza del motor porque, si no se hace, el robot no podrá mantener ciertas posiciones y podría colapsar o dañarse por falta de soporte. Esta compensación es esencial en tareas como el agarre de objetos pesados o el trabajo en orientaciones complejas. Los controladores dinámicos usualmente consideran este vector para garantizar que el sistema se mantenga estable incluso en reposo.
 \subsection{Fricción}
-Expliquen qué es la fricción en general.
+La fricción es una fuerza que se opone al movimiento entre dos superficies en contacto, y en robótica, tiene un papel relevante en el comportamiento dinámico de las articulaciones. Existen varios tipos.
+
+Tener un modelo preciso de la fricción es importante para garantizar movimientos suaves, reducir el desgaste mecánico y mejorar la eficiencia energética del robot.
 
 \subsubsection{Fricción estática o seca}
+Es la resistencia inicial que debe vencer un actuador para comenzar a mover una articulación desde el reposo. Esta fricción es generalmente mayor que la fricción en movimiento, y se presenta como un "tirón" inicial que debe considerarse al diseñar el controlador. Si no se modela correctamente, puede causar errores en el arranque del robot.
 
 \subsubsection{Fricción dinámica o viscosa}
+Es la fricción que actúa durante el movimiento y suele ser proporcional a la velocidad. Se llama "viscosa" porque su comportamiento se asemeja al de un fluido viscoso: a mayor velocidad, mayor resistencia. Este tipo de fricción es útil para amortiguar el sistema y evitar vibraciones bruscas, pero también introduce pérdidas de energía que deben compensarse con torque adicional.
 
 \subsection{Perturbaciones}
-Aquí expliquen qué es una perturbación en general sin profundizar mucho.
+Las perturbaciones en robótica hacen referencia a todas aquellas influencias externas o internas no previstas en el modelo dinámico del robot, que pueden afectar su comportamiento o desempeño durante el movimiento o ejecución de tareas. Estas perturbaciones pueden ser fuerzas externas, como el contacto con objetos del entorno, fricciones inesperadas, vibraciones, cambios en la carga útil (por ejemplo, al agarrar un objeto pesado), o incluso variaciones en el terreno donde se desplaza el robot. También pueden originarse dentro del sistema, como errores de modelado, imprecisiones en los sensores, o variaciones en los actuadores.
+
+El principal problema de las perturbaciones es que pueden generar errores en la posición, trayectoria o velocidad deseada del robot, afectando su precisión y estabilidad. Por esta razón, los sistemas de control dinámico deben estar diseñados para ser robustos ante perturbaciones, es decir, que puedan compensarlas o adaptarse a ellas sin perder el control. Algunos enfoques incluyen el uso de controladores adaptativos, control robusto, o técnicas de observadores que detectan la perturbación y ajustan las señales de control en tiempo real.
