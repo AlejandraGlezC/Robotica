@@ -1,14 +1,23 @@
 \section{Cinemática} \label{sec:cinematica}
 
-Explicar su definición en base a lo que viene en libros o de los archivos de Matlab. Diferenciar entre \textbf{Cinemática directa} y \textbf{Cinemática inversa}.
-Para el proceso sobre cómo se llevó a cabo el algoritmo en Matlab, ir a la  \hyperref[sec:proceso_cinematica]{sección del proceso de Cinemática}.
+La cinemática es una de las ramas más fundamentales dentro del estudio de la robótica, ya que permite comprender, describir y controlar el movimiento de los robots sin tomar en cuenta las fuerzas o torques que lo producen. Su objetivo principal es establecer una relación matemática entre los movimientos internos del robot (generalmente articulaciones) y la posición y orientación de su extremo final, también conocido como efector final o herramienta.
+Dentro de la cinemática en robótica, existen dos enfoques esenciales: la cinemática directa y la cinemática inversa. Cada una cumple una función diferente, pero complementaria en la programación y operación de robots manipuladores.
 
 \subsection{Cinemática Directa}
-Explicar sobre la definición geométrica usando Denavit Hartenberg con el algoritmo y las matemáticas.
+La cinemática directa, también conocida como cinemática hacia adelante, consiste en calcular la posición y orientación del efector final del robot con base en los valores conocidos de sus articulaciones. Estos valores pueden ser ángulos de rotación (en el caso de articulaciones rotacionales) o desplazamientos lineales (en articulaciones prismáticas). A través de modelos matemáticos y transformaciones geométricas, se determina dónde estará ubicado el extremo del robot respecto a su base. Esta información es crucial para planificar movimientos y trayectorias.
+
+
+Para llevar a cabo este proceso, se utiliza comúnmente el método de Denavit-Hartenberg (DH), una convención que permite representar cada eslabón del robot mediante cuatro parámetros que describen cómo se conecta un eslabón con el siguiente. Con estos parámetros, se construyen matrices de transformación homogénea que, al multiplicarse entre sí, permiten obtener la posición final del efector en el espacio tridimensional. Este procedimiento es sistemático y escalable, por lo que se adapta fácilmente a robots de múltiples grados de libertad.
 
 \subsection{Cinemática Diferencial}
-Aquí explicarán sobre el jacobiano para la cinemática diferencial.
+La cinemática diferencial es una rama de la cinemática que estudia las relaciones entre las velocidades articulares de un robot y la velocidad lineal y angular del efector final. A diferencia de la cinemática directa o inversa —que trabajan con posiciones—, la cinemática diferencial se enfoca en velocidades y se expresa comúnmente mediante el uso del Jacobiano.
+
+Este método es ampliamente utilizado en robótica debido a su capacidad para manejar sistemas complejos de manera eficiente. Sin embargo, uno de los principales desafíos es evitar configuraciones singulares, donde el Jacobiano pierde rango y el control se vuelve inestable o indefinido.
 
 \subsection{Cinemática Inversa}
-Explicar su definición y cómo se relaciona el gradiente con el jacobiano. Cabe destacar que existen multitud de métodos y en mi clase solo usaron un método, pero aquí pueden explicar las imágenes que vienen en Matlab.
+Por otro lado, la cinemática inversa aborda el problema opuesto: dado un punto específico en el espacio donde se desea posicionar el efector final del robot, se buscan los valores articulares que permitirán alcanzar esa posición. Este proceso es considerablemente más complejo que la cinemática directa, ya que puede existir más de una solución, o en algunos casos ninguna, dependiendo de las limitaciones físicas y geométricas del robot.
+
+
+La cinemática inversa es fundamental para tareas donde el robot debe seguir trayectorias específicas, como en aplicaciones de ensamblaje, soldadura, pintura, manipulación de objetos, entre muchas otras. Resolver este problema puede hacerse de manera analítica, cuando el robot tiene una configuración simple, o de forma numérica, con el uso de algoritmos iterativos que buscan la mejor solución dentro del espacio de trabajo disponible.
+
 
