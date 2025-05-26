@@ -1,3 +1,6 @@
 \subsection{Límites y propiedades dinámicas de las articulaciones} \label{subsec:limites_propiedades}
 
-Básicamente, explicarán lo que aparece en la \autoref{tab:parametros_robot}: Parámetros de Denavit Hartenberg y límites del robot, específicamente lo que aparece después de \code{tipo}. Como no completamos la tarea de dinámica,. pueden comentar esta subsección del documento principal.
+
+En la \autoref{tab:parametros_robot}: Parámetros de Denavit Hartenberg y límites del robot, se presentan los parámetros Denavit-Hartenberg (DH) y los límites de movimiento de cada articulación del robot. Los parámetros DH permiten describir matemáticamente la geometría del robot manipulador, utilizando una serie de transformaciones homogéneas que definen la relación entre cada eslabón.
+
+La columna tipo especifica el tipo de articulación, donde “r” indica que es rotacional (revoluta). Además, se incluyen los límites de movimiento: qmin y qmax representan el rango angular permitido para cada articulación, q'max indica la velocidad angular máxima, y q''max señala la aceleración angular máxima permitida. Estos valores son fundamentales para garantizar que el robot opere dentro de márgenes seguros, evitando sobrecargas o colisiones durante su funcionamiento.
