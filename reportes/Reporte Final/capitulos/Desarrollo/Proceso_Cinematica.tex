@@ -20,6 +20,18 @@ Para ver los resultados, ir al \autoref{chap:resultados}: Resultados, o determin
 \subsection{Cinemática Diferencial}
 Explicar las partes importantes del código de la cinemática diferencial.
 Para ver los resultados, ir al \autoref{chap:resultados}: Resultados, o determinada figura.
+
+En el codigo que se presenta, primero se inicializan varias variables para guardar los valores de posicion, orientacion, velocidad lineal y angular, y sus respectivas aceleraciones. Luego, se realiza un ciclo que recorre cada instante de tiempo. En cada paso, se actualiza la posicion del robot segun los valores articulares en ese momento y se calcula la posicion y orientacion del efector final.
+
+Una de las lineas mas importantes del codigo es:
+\begin{matlabcode}{matlab}
+	vel_linear(:,:,k) = Jv(:,:,k) * dq(:,k);
+\end{matlabcode}
+
+Esta linea es clave porque calcula la velocidad lineal del efector final a partir del Jacobiano y de la velocidad articular. Es fundamental para entender como el movimiento de las articulaciones se traduce en un movimiento real del robot en el espacio.
+
+Despues de esto, el programa tambien calcula la aceleracion utilizando la derivada del Jacobiano y las aceleraciones articulares. Los resultados se grafican, mostrando como varian la posicion, la velocidad y la aceleracion en los ejes X, Y y Z, asi como en los angulos de orientacion del robot. Estas graficas permiten analizar el comportamiento dinamico del robot y verificar si esta funcionando correctamente segun el modelo programado.
+
 \subsection{Cinemática Inversa}
 Explicar las partes importantes del código de la cinemática inversa.
 Para ver los resultados, ir al \autoref{chap:resultados}: Resultados, o determinada figura.
