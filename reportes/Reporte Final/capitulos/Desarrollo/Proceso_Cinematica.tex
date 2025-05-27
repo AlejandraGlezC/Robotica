@@ -1,15 +1,7 @@
 \section{Proceso de Cinemática} \label{sec:proceso_cinematica}
 
-Aquí explicarán su código. Si quieren mostrar una parte, pueden hacerlo de la siguiente forma
+En este capítulo se aborda el estudio de la cinemática de un robot manipulador, incluyendo la cinemática directa, la cinemática inversa y la cinemática diferencial. La cinemática directa permite calcular la posición y orientación del efector final a partir de los valores articulares del robot, mientras que la cinemática inversa busca determinar los ángulos articulares necesarios para alcanzar una posición deseada. Por otro lado, la cinemática diferencial se enfoca en el análisis de las velocidades y aceleraciones, utilizando el Jacobiano para relacionar el espacio articular con el espacio cartesiano. A lo largo del capítulo se explican detalladamente los códigos implementados para cada tipo de cinemática, acompañados de gráficas, simulaciones y visualizaciones que permiten validar y entender el comportamiento del sistema robótico.
 
-% Si no quieres ponerle título al código, puedes dejarlo en blanco.
-\begin{matlabcode}{matlab}
-	function [q_sol, p_sol] = cinematica_inv(r, p_des, tol, max_iter, alpha, numMuestras)
-\end{matlabcode}
-
-Pero solo háganlo en partes muy específicas (las que van a explicar en ese momento). No copien todo el código ya que eso está en GitHub.
-
-Si les sale el error \texttt{latexminted no se reconoce como un comando interno o externo, programa o archivo por lotes ejecutable}, deben tener instalado python y usar el siguiente comando.
 \begin{terminal}{bash: Instalar minted en python con pip}
 	pip install latexminted==0.5.1
 \end{terminal}
@@ -22,7 +14,7 @@ Posteriormente, se crea la estructura grafica del robot, es decir, se define su 
 
 La animación se genera mediante un ciclo que recorre cada instante de tiempo y actualiza la configuración del robot usando los valores articulares correspondientes, y luego dibuja el robot en su nueva posición. Si se desea guardar el video, también se capturaría el fotograma actual y se escribiría en el archivo de video. Esta parte del código permite visualizar el movimiento del robot a lo largo de la trayectoria calculada, facilitando el análisis del comportamiento de su cinemática directa. Para visualizar el resultado vea la \autoref{fig:cinematicadirecta}.
 
-\begin{matlabcode}{matlab}
+\begin{matlabcode}{Cinemática Directa}
 	for k = 1:length(t_animacion);
 \end{matlabcode}
 
@@ -32,7 +24,7 @@ La animación se genera mediante un ciclo que recorre cada instante de tiempo y 
 En el codigo que se presenta, primero se inicializan varias variables para guardar los valores de posicion, orientacion, velocidad lineal y angular, y sus respectivas aceleraciones. Luego, se realiza un ciclo que recorre cada instante de tiempo. En cada paso, se actualiza la posicion del robot segun los valores articulares en ese momento y se calcula la posicion y orientacion del efector final.
 
 Una de las lineas mas importantes del codigo es:
-\begin{matlabcode}{matlab}
+\begin{matlabcode}{Cinemática Diferencial}
 	vel_linear(:,:,k) = Jv(:,:,k) * dq(:,k);
 \end{matlabcode}
 
