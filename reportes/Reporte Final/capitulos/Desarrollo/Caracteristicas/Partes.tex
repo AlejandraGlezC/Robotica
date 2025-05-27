@@ -3,7 +3,6 @@ En esta sección se presentan los componentes principales del robot, enfocándos
 
 
 \subsubsection{Motores} \label{subsubsec:motores}
-Explicarán cuál es el motor que usaron, harán referencia a la hoja de datos, así como las transmisiones (por ejemplo, las de las pinzas) o reductores de velocidad a los que están acoplados. Deben de poner también información como: masa, fuerza o torque máximo, razón de reducción (por ejemplo, 10/1) y la velocidad máxima.
 
 En este proyecto se utilizaron tres tipos de motores, cada uno seleccionado de acuerdo con las necesidades específicas de torque, velocidad y precisión. El primero es un motor paso a paso NEMA 17, que de acuerdo con su hoja de datos entrega un torque máximo de 59 N·cm, equivalente a 0.59 N·m. La velocidad máxima considerada para este motor es de 1000 rpm, que corresponde a 2.65 rad/s. Este motor está conectado a una transmisión con una relación de reducción de 8:1, lo que significa que por cada ocho vueltas del motor, la salida da una vuelta. Los motores NEMA 17 son comúnmente usados en impresoras 3D y pequeñas máquinas CNC, debido a su precisión y control fino de pasos.
 
@@ -13,7 +12,7 @@ Finalmente, se emplea un servo motor de modelo genérico, que ofrece un torque m
 
 
 \subsubsection{Eslabones} \label{subsubsec:eslabones}
-Pondrán la masa, inercia, longitud y material de cada eslabón.
+
 Para calcular las propiedades físicas de los eslabones del robot, se utilizaron los datos obtenidos de la configuración de las uniones (joints), en particular las posiciones de origen de cada una. Estas posiciones permiten determinar la longitud aproximada de cada eslabón al observar el desplazamiento relativo entre las articulaciones consecutivas. A partir de estas longitudes, y asumiendo que los eslabones tienen forma cilíndrica con un diámetro aproximado de 2.5 cm, fue posible estimar su volumen. Utilizando aluminio como material base, con una densidad de 2700 kg/m³ —común en aplicaciones de robótica por su ligereza y resistencia—, se calculó una masa aproximada para cada eslabón. Con la masa y la longitud, también se estimó el momento de inercia utilizando la fórmula I = 1/12mL2, correspondiente a un cilindro delgado girando alrededor de su centro.
 
 De esta manera, se obtuvieron los siguientes resultados aproximados para cada eslabón:
