@@ -4,5 +4,13 @@ En esta sección se presentan los componentes principales del robot, enfocándos
 
 \subsubsection{Motores} \label{subsubsec:motores}
 Explicarán cuál es el motor que usaron, harán referencia a la hoja de datos, así como las transmisiones (por ejemplo, las de las pinzas) o reductores de velocidad a los que están acoplados. Deben de poner también información como: masa, fuerza o torque máximo, razón de reducción (por ejemplo, 10/1) y la velocidad máxima.
+
+En este proyecto se utilizaron tres tipos de motores, cada uno seleccionado de acuerdo con las necesidades específicas de torque, velocidad y precisión. El primero es un motor paso a paso NEMA 17, que de acuerdo con su hoja de datos entrega un torque máximo de 59 N·cm, equivalente a 0.59 N·m. La velocidad máxima considerada para este motor es de 1000 rpm, que corresponde a 2.65 rad/s. Este motor está conectado a una transmisión con una relación de reducción de 8:1, lo que significa que por cada ocho vueltas del motor, la salida da una vuelta. Los motores NEMA 17 son comúnmente usados en impresoras 3D y pequeñas máquinas CNC, debido a su precisión y control fino de pasos.
+
+El segundo motor utilizado es un paso a paso NEMA 23, que tiene un torque máximo de 1.26 N·m y alcanza una velocidad de hasta 1500 rpm, equivalente a 3.98 rad/s. Este motor está acoplado a un reductor con relación 10:1, permitiendo aumentar el torque a costa de reducir la velocidad, lo que lo hace adecuado para aplicaciones que requieren mayor fuerza, como sistemas actuadores más grandes.
+
+Finalmente, se emplea un servo motor de modelo genérico, que ofrece un torque máximo de 350 N·cm (3.5 N·m) y una velocidad aproximada de 60° cada 0.14 segundos, lo cual se traduce a 7.48 rad/s. Este servo está conectado a una transmisión interna de aproximadamente 5:1, la cual permite que el sistema de pinza tenga la precisión y fuerza necesarias para sujetar objetos de forma efectiva. Los servos son ideales para movimientos controlados dentro de un rango limitado, como abrir y cerrar pinzas o mover pequeñas articulaciones.
+
+
 \subsubsection{Eslabones} \label{subsubsec:eslabones}
 Pondrán la masa, inercia, longitud y material de cada eslabón.
