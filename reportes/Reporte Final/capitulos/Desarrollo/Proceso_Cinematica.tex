@@ -17,6 +17,18 @@ Si les sale el error \texttt{latexminted no se reconoce como un comando interno 
 \subsection{Cinemática Directa}
 Explicar las partes importantes del código de la cinemática directa.
 Para ver los resultados, ir al \autoref{chap:resultados}: Resultados, o determinada figura.
+
+En esta sección del código se realiza la animación de la cinemática directa del robot. Primero, se cierra cualquier figura abierta con el comando close all y se define la cantidad de cuadros por segundo que tendrá la animación, en este caso treinta. Luego, se genera un vector de tiempo para la animación y se obtiene la trayectoria del robot aplicando la función de trayectoria, que devuelve los valores articulares que toma el robot en cada instante. 
+
+Posteriormente, se crea la estructura grafica del robot, es decir, se define su representación visual en el entorno grafico de Matlab. Después, se genera un nombre automático para el archivo de video que incluirá la animación, utilizando la fecha y hora actuales, lo cual permite guardar cada ejecución sin sobrescribir archivos anteriores. Aunque se incluyen líneas para generar un video de la animación, estas se encuentran comentadas, lo cual significa que no se ejecutan a menos que el usuario lo decida. 
+
+La animación se genera mediante un ciclo que recorre cada instante de tiempo y actualiza la configuración del robot usando los valores articulares correspondientes, y luego dibuja el robot en su nueva posición. Si se desea guardar el video, también se capturaría el fotograma actual y se escribiría en el archivo de video. Esta parte del código permite visualizar el movimiento del robot a lo largo de la trayectoria calculada, facilitando el análisis del comportamiento de su cinemática directa.
+
+\begin{matlabcode}{matlab}
+	for k = 1:length(t_animacion);
+\end{matlabcode}
+
+
 \subsection{Cinemática Diferencial}
 Explicar las partes importantes del código de la cinemática diferencial.
 Para ver los resultados, ir al \autoref{chap:resultados}: Resultados, o determinada figura.

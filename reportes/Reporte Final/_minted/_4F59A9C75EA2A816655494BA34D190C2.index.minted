@@ -1,10 +1,11 @@
 {
   "jobname": "Reporte",
   "md5": "4F59A9C75EA2A816655494BA34D190C2",
-  "timestamp": "20250526221251",
+  "timestamp": "20250526222332",
   "cachefiles": [
     "40A49804AF5BB1EAD2D05B341E1B2757.highlight.minted",
     "66A0C5E018EA0CB150BC784E04040DE8.highlight.minted",
+    "AFA7197B57585C1BDAAE75CDE35878DA.highlight.minted",
     "E15C2D2163915438866664B4DD27FA0D.highlight.minted",
     "_4F59A9C75EA2A816655494BA34D190C2.index.minted",
     "default.style.minted"
