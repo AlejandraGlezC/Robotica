@@ -8,6 +8,8 @@ En este proyecto se utilizaron tres tipos de motores, cada uno seleccionado de a
 
 El segundo motor utilizado es un paso a paso NEMA 23, que tiene un torque máximo de 1.26 N·m y alcanza una velocidad de hasta 1500 rpm, equivalente a 3.98 rad/s. Este motor está acoplado a un reductor con relación 10:1, permitiendo aumentar el torque a costa de reducir la velocidad, lo que lo hace adecuado para aplicaciones que requieren mayor fuerza, como sistemas actuadores más grandes.
 
+
+
 Finalmente, se emplea un servo motor de modelo genérico, que ofrece un torque máximo de 350 N·cm (3.5 N·m) y una velocidad aproximada de 60° cada 0.14 segundos, lo cual se traduce a 7.48 rad/s. Este servo está conectado a una transmisión interna de aproximadamente 5:1, la cual permite que el sistema de pinza tenga la precisión y fuerza necesarias para sujetar objetos de forma efectiva. Los servos son ideales para movimientos controlados dentro de un rango limitado, como abrir y cerrar pinzas o mover pequeñas articulaciones.
 
 
@@ -17,13 +19,49 @@ Para calcular las propiedades físicas de los eslabones del robot, se utilizaron
 
 De esta manera, se obtuvieron los siguientes resultados aproximados para cada eslabón:
 
-El \textbf{eslabón 1}, con una longitud de 0.3991 metros, tiene una masa estimada de 0.85 kg y una inercia de 0.0113 kg·m².
+El \textbf{eslabón 1}, con una longitud de 0.3991 metros, tiene una masa estimada de 0.85 kg y una inercia de 0.0113 kg·m². \autoref{fig:joint1urdf}.
 
-El \textbf{eslabón 2} tiene una longitud de 0.448 metros, una masa de aproximadamente 0.95 kg y una inercia de 0.016 kg·m².
+El \textbf{eslabón 2} tiene una longitud de 0.448 metros, una masa de aproximadamente 0.95 kg y una inercia de 0.016 kg·m². \autoref{fig:joint2urdf}.
 
-El \textbf{eslabón 3} presenta una longitud de 0.2885 metros, con una masa estimada de 0.65 kg y una inercia de 0.0045 kg·m².
+El \textbf{eslabón 3} presenta una longitud de 0.2885 metros, con una masa estimada de 0.65 kg y una inercia de 0.0045 kg·m². \autoref{fig:joint3urdf}.
 
-Finalmente, el \textbf{eslabón 4} mide 0.161 metros, con una masa de 0.35 kg y una inercia aproximada de 0.0021 kg·m².
+Finalmente, el \textbf{eslabón 4} mide 0.161 metros, con una masa de 0.35 kg y una inercia aproximada de 0.0021 kg·m². \autoref{fig:joint4urdf}.
 
 Estos valores, aunque estimados, ofrecen una base útil para la simulación dinámica del robot y permiten aproximar su comportamiento físico en tareas de control y planificación de movimiento.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\linewidth]{img/JOINT1URDF}
+	\caption{Eslabón 1}
+	\label{fig:joint1urdf}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\linewidth]{img/JOINT2URDF}
+	\caption{Eslabón 2}
+	\label{fig:joint2urdf}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\linewidth]{img/JOINT3URDF}
+	\caption{Eslabón 3}
+	\label{fig:joint3urdf}
+\end{figure}}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.3\linewidth]{img/JOINT4URDF}
+	\caption{Eslabón 4}
+	\label{fig:joint4urdf}
+\end{figure}
+
+
+
+	
+
+
+
+
 
