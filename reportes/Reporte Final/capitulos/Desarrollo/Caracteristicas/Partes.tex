@@ -14,3 +14,17 @@ Finalmente, se emplea un servo motor de modelo genérico, que ofrece un torque m
 
 \subsubsection{Eslabones} \label{subsubsec:eslabones}
 Pondrán la masa, inercia, longitud y material de cada eslabón.
+Para calcular las propiedades físicas de los eslabones del robot, se utilizaron los datos obtenidos de la configuración de las uniones (joints), en particular las posiciones de origen de cada una. Estas posiciones permiten determinar la longitud aproximada de cada eslabón al observar el desplazamiento relativo entre las articulaciones consecutivas. A partir de estas longitudes, y asumiendo que los eslabones tienen forma cilíndrica con un diámetro aproximado de 2.5 cm, fue posible estimar su volumen. Utilizando aluminio como material base, con una densidad de 2700 kg/m³ —común en aplicaciones de robótica por su ligereza y resistencia—, se calculó una masa aproximada para cada eslabón. Con la masa y la longitud, también se estimó el momento de inercia utilizando la fórmula I = 1/12mL2, correspondiente a un cilindro delgado girando alrededor de su centro.
+
+De esta manera, se obtuvieron los siguientes resultados aproximados para cada eslabón:
+
+El \textbf{eslabón 1}, con una longitud de 0.3991 metros, tiene una masa estimada de 0.85 kg y una inercia de 0.0113 kg·m².
+
+El \textbf{eslabón 2} tiene una longitud de 0.448 metros, una masa de aproximadamente 0.95 kg y una inercia de 0.016 kg·m².
+
+El \textbf{eslabón 3} presenta una longitud de 0.2885 metros, con una masa estimada de 0.65 kg y una inercia de 0.0045 kg·m².
+
+Finalmente, el \textbf{eslabón 4} mide 0.161 metros, con una masa de 0.35 kg y una inercia aproximada de 0.0021 kg·m².
+
+Estos valores, aunque estimados, ofrecen una base útil para la simulación dinámica del robot y permiten aproximar su comportamiento físico en tareas de control y planificación de movimiento.
+
