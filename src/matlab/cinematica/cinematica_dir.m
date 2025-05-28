@@ -21,6 +21,7 @@ function [pos,v_l,a_l,ori,v_r,a_r] = cinematica_dir(robot,q,dq,ddq,t,secuencia)
 %       v_r        - Velocidad angular (3 x M)
 %       a_r        - Aceleración angular (3 x M)
 
+%Inicializar variables
 pos = zeros(3,length(t));
 ori = pos;
 v_l = pos;
@@ -35,6 +36,8 @@ dJw = Jw;
 dt = 0.05;
 
 for k = 1:length(t)
+
+    robot = actualizar_robot_completo(robot, q(:,k));  % <<-- ESTA LÍNEA ES CLAVE
 
     pos(:,k) = robot.T(1:3,4,end);
     R(:,:,k) = robot.T(1:3,1:3,end);
@@ -53,5 +56,4 @@ for k = 1:length(t)
 
     a_l(:,k) = Jv(:,:,k)*ddq(:,k) + dJv(:,:,k)*dq(:,k);
     a_r(:,k) = Jw(:,:,k)*ddq(:,k) + dJw(:,:,k)*dq(:,k);
-
 end
