@@ -10,24 +10,25 @@ El segundo motor utilizado es un paso a paso NEMA 23, que tiene un torque máxim
 
 
 
-Finalmente, se emplea un servo motor de modelo genérico, que ofrece un torque máximo de 350 N·cm (3.5 N·m) y una velocidad aproximada de 60° cada 0.14 segundos, lo cual se traduce a 7.48 rad/s. Este servo está conectado a una transmisión interna de aproximadamente 5:1, la cual permite que el sistema de pinza tenga la precisión y fuerza necesarias para sujetar objetos de forma efectiva. Los servos son ideales para movimientos controlados dentro de un rango limitado, como abrir y cerrar pinzas o mover pequeñas articulaciones.
-
-
 \subsubsection{Eslabones} \label{subsubsec:eslabones}
 
-Para calcular las propiedades físicas de los eslabones del robot, se utilizaron los datos obtenidos de la configuración de las uniones (joints), en particular las posiciones de origen de cada una. Estas posiciones permiten determinar la longitud aproximada de cada eslabón al observar el desplazamiento relativo entre las articulaciones consecutivas. A partir de estas longitudes, y asumiendo que los eslabones tienen forma cilíndrica con un diámetro aproximado de 2.5 cm, fue posible estimar su volumen. Utilizando aluminio como material base, con una densidad de 2700 kg/m³ —común en aplicaciones de robótica por su ligereza y resistencia—, se calculó una masa aproximada para cada eslabón. Con la masa y la longitud, también se estimó el momento de inercia utilizando la fórmula I = 1/12mL2, correspondiente a un cilindro delgado girando alrededor de su centro.
 
-De esta manera, se obtuvieron los siguientes resultados aproximados para cada eslabón:
+Para calcular las propiedades físicas de los eslabones del robot, se utilizaron los datos obtenidos de la configuración de las uniones (joints), en particular las posiciones de origen de cada una. Estas posiciones permiten determinar la longitud aproximada de cada eslabón al observar el desplazamiento relativo entre las articulaciones consecutivas. A partir de estas longitudes, y asumiendo que los eslabones tienen forma cilíndrica con un diámetro aproximado de 2.5 cm, fue posible estimar su volumen. Para este proyecto se empleó como material el ABS, un plástico común en impresión 3D y prototipado rápido, que ofrece buena resistencia mecánica y bajo peso, con una densidad aproximada de 1040 kg/m³.
 
-El \textbf{eslabón 1}, con una longitud de 0.3991 metros, tiene una masa estimada de 0.85 kg y una inercia de 0.0113 kg·m². \autoref{fig:joint1urdf}.
+En lugar de estimar la masa, se utilizaron directamente los valores de masa obtenidos para cada eslabón, ya que fueron extraídos de los modelos físicos. Con esta masa y la longitud correspondiente, también se estimó el momento de inercia usando la fórmula I = (1/12)·m·L², correspondiente a un cilindro delgado girando alrededor de su centro.
 
-El \textbf{eslabón 2} tiene una longitud de 0.448 metros, una masa de aproximadamente 0.95 kg y una inercia de 0.016 kg·m². \autoref{fig:joint2urdf}.
+De esta manera, se obtuvieron los siguientes resultados para cada eslabón:
 
-El \textbf{eslabón 3} presenta una longitud de 0.2885 metros, con una masa estimada de 0.65 kg y una inercia de 0.0045 kg·m². \autoref{fig:joint3urdf}.
+El \textbf{eslabón 1}, con una masa de 6.19 kg, representa uno de los segmentos estructurales principales del robot. \autoref{fig:joint1urdf}.
+El \textbf{eslabón 2} tiene una masa de 8.13 kg y soporta una parte importante de la carga y el movimiento.\autoref{fig:joint2urdf}.
+El \textbf{eslabón 3} presenta una masa de 6.53 kg y forma parte del brazo intermedio del robot. \autoref{fig:joint3urdf}.
+El \textbf{eslabón 4} tiene una masa de 1.85 kg y corresponde a una sección final más ligera del brazo. \autoref{fig:joint4urdf}.
+Finalmente, el \textbf{eslabón 5}, con una masa de 0.59 kg, es el más liviano y está asociado generalmente al extremo del manipulador, como una pinza o herramienta.
 
-Finalmente, el \textbf{eslabón 4} mide 0.161 metros, con una masa de 0.35 kg y una inercia aproximada de 0.0021 kg·m². \autoref{fig:joint4urdf}.
+Además, la base del robot cuenta con una masa de 10.87 kg, lo cual proporciona la estabilidad necesaria para sostener toda la estructura y resistir los movimientos del brazo robótico durante su operación.
 
-Estos valores, aunque estimados, ofrecen una base útil para la simulación dinámica del robot y permiten aproximar su comportamiento físico en tareas de control y planificación de movimiento.
+Estos valores permiten aproximar de forma precisa el comportamiento físico del robot en simulaciones dinámicas, facilitando su análisis en contextos de control, planificación y operación.
+
 
 \begin{figure}
 	\centering
