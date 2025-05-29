@@ -32,6 +32,41 @@ La \autoref{fig:cinematicadirecta}  muestra el resultado de la cinemática direc
 	\label{fig:cinematicadirecta}
 \end{figure}
 
+En los resultados de la cinemática inversa del robot, se presentan varias gráficas clave que permiten entender tanto el comportamiento del efector final como el desempeño de cada articulación durante el movimiento planeado. La primera gráfica muestra la posición cartesiana (X, Y, Z) a lo largo del tiempo, donde se observa cómo el efector final sigue una trayectoria definida, alcanzando desplazamientos máximos y mínimos en cada eje, lo que refleja los cambios espaciales requeridos para cumplir la tarea. La segunda gráfica muestra la velocidad lineal (Vx, Vy, Vz), destacando los puntos donde la velocidad cambia rápidamente, lo cual es indicativo de aceleraciones significativas, mientras que la tercera gráfica muestra directamente las aceleraciones lineales (Ax, Ay, Az), que permiten identificar los momentos en que el sistema experimenta cambios rápidos de velocidad, cruciales para garantizar movimientos suaves y precisos. Las siguientes gráficas representan la orientación del efector final usando ángulos Euler (φ, θ, ψ), junto con su velocidad angular y aceleración angular; estas muestran cómo no solo cambia la posición, sino también la orientación, asegurando que el efector final llegue al objetivo correctamente alineado. \autoref{fig:cinematicainversagrafica1}
+
+En la segunda serie de gráficas, se detalla el comportamiento articular: la primera gráfica muestra las posiciones articulares (θ₁, θ₂, θ₃, θ₄, θ₅), donde se observa que algunas articulaciones realizan movimientos amplios mientras que otras permanecen casi constantes, reflejando su rol específico en el mecanismo. La segunda gráfica detalla las velocidades articulares (dθ/dt), permitiendo ver cómo cada junta varía su ritmo para coordinar el movimiento general, y la tercera gráfica muestra las aceleraciones articulares (d²θ/dt²), revelando los puntos donde las articulaciones requieren esfuerzos mayores para acelerar o desacelerar. \autoref{fig:cinematicainversagrafica2}
+
+Finalmente, los mensajes de salida indican que la solución de cinemática inversa se alcanzó en la muestra 1, después de 16 y 17 iteraciones respectivamente, con errores residuales de aproximadamente 8.47 × 10⁻⁴ y 6.22 × 10⁻⁴. Estos valores son muy bajos y reflejan que el algoritmo logró encontrar una solución precisa, es decir, que la diferencia entre la posición y orientación deseadas y las obtenidas es mínima, garantizando un alto nivel de exactitud en la ejecución del movimiento. Estos datos son fundamentales porque no solo permiten verificar que el robot puede llegar a la posición deseada, sino también que lo hace de forma estable, eficiente y controlada, evitando movimientos bruscos que podrían comprometer la tarea o el equipo.\autoref{fig:cinematicainversaerror}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/Cinematicainversa}
+	\caption{Cinemática Inversa}
+	\label{fig:cinematicainversa}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/cinematicainversa_grafica1}
+	\caption{Gráficas 1 de Cinemática Inversa }
+	\label{fig:cinematicainversagrafica1}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/Cinematicainversa_grafica2}
+	\caption{Gráficas 2 Cinemática Inversa}
+	\label{fig:cinematicainversagrafica2}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/cinematicainversa_error}
+	\caption{}
+	\label{fig:cinematicainversaerror}
+\end{figure}
+
+
 En la \autoref{fig:ros1}  se observa un brazo robótico en una postura extendida, visualizado mediante RViz, herramienta del entorno ROS. Aunque no se muestran marcas explícitas de la trayectoria, se puede inferir su recorrido a partir de la configuración actual del robot. La trayectoria seguida por el efector final parece haber sido descendente y hacia adelante, lo cual es común en tareas de manipulación de objetos. Es probable que el robot haya iniciado desde una posición más elevada y replegada, para luego extender sus eslabones intermedios, desplazando el efector final en la dirección frontal (eje X positivo) y descendiendo gradualmente hacia una posición más baja (eje Z negativo). La orientación final del efector, apuntando hacia abajo, sugiere que el robot se encuentra listo para interactuar con el entorno, ya sea para tomar un objeto, realizar un ensamble o ejecutar una acción específica. Esta trayectoria implica un movimiento controlado y suave en el plano XZ, característico de movimientos precisos y planificados mediante algoritmos de planificación de trayectorias y control cinemático. En la \autoref{fig:sistemadecoordenadassw} se puede ver el sistema de coordenadas del robot.
 
 \begin{figure}
